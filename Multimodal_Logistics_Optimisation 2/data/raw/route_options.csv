@@ -1,0 +1,517 @@
+route_id,origin_city,destination_city,route_sequence,mode_sequence,total_distance_km,number_of_transshipments,total_transit_time_hours,total_transport_cost,total_handling_cost,total_route_cost,reliability_percentage,estimated_emissions_kg,min_leg_capacity_tonnes,sla_feasible_96h_benchmark
+RT00001,Lucknow,Mumbai,Lucknow -> Mumbai,Road,1564.0,0,36.8,879.08,24.26,903.34,90.9,2167.7,19.8,True
+RT00002,Lucknow,Mumbai,Lucknow -> Mumbai,Rail,1393.1,0,61.2,627.28,59.92,687.2,93.7,440.2,2298.5,True
+RT00003,Lucknow,Mumbai,Lucknow -> Mumbai,Air,1279.6,0,1.9,3591.91,113.33,3705.24,86.9,8953.4,12.5,True
+RT00004,Coimbatore,Delhi,Coimbatore -> Delhi,Road,2511.4,0,82.6,1331.75,10.39,1342.14,78.3,2463.7,16.6,True
+RT00005,Coimbatore,Delhi,Coimbatore -> Bengaluru -> Delhi -> Delhi,Road -> Rail -> Road,2424.3,2,94.8,1083.41,152.27,1235.68,59.3,967.3,17.1,True
+RT00006,Coimbatore,Delhi,Coimbatore -> Delhi,Air,2152.5,0,3.1,4617.78,148.21,4765.99,95.6,10837.8,35.9,True
+RT00007,Guwahati,Surat,Guwahati -> Surat,Road,2629.8,0,76.7,1369.17,13.72,1382.89,87.5,2682.4,12.3,True
+RT00008,Guwahati,Surat,Guwahati -> Guwahati -> Ahmedabad -> Surat,Road -> Rail -> Road,2611.8,2,94.4,1200.24,167.1,1367.34,72.6,1059.5,20.6,True
+RT00009,Guwahati,Surat,Guwahati -> Guwahati -> Ahmedabad -> Surat,Road -> Air -> Road,2375.7,2,17.5,3893.33,190.21,4083.54,72.0,10835.5,20.6,True
+RT00010,Ahmedabad,Coimbatore,Ahmedabad -> Coimbatore,Road,1790.3,0,64.6,891.72,10.75,902.47,87.8,2450.9,15.6,True
+RT00011,Ahmedabad,Coimbatore,Ahmedabad -> Ahmedabad -> Bengaluru -> Coimbatore,Road -> Rail -> Road,1833.4,2,69.8,813.58,162.8,976.38,59.8,831.2,17.1,True
+RT00012,Ahmedabad,Coimbatore,Ahmedabad -> Coimbatore,Air,1446.2,0,2.1,4031.09,86.62,4117.71,88.7,9051.8,26.0,True
+RT00013,Ahmedabad,Surat,Ahmedabad -> Surat,Road,279.0,0,7.8,219.97,22.63,242.6,80.5,390.0,20.6,True
+RT00014,Bhopal,Surat,Bhopal -> Surat,Road,675.3,0,19.7,362.04,18.79,380.83,86.3,772.5,21.5,True
+RT00015,Bhopal,Surat,Bhopal -> Indore -> Ahmedabad -> Surat,Road -> Rail -> Road,901.3,2,39.6,692.58,193.46,886.04,64.6,791.6,16.4,True
+RT00016,Bhopal,Surat,Bhopal -> Indore -> Ahmedabad -> Surat,Road -> Air -> Road,864.2,2,21.6,1543.66,289.5,1833.16,69.2,2368.5,16.4,True
+RT00017,Ahmedabad,Ludhiana,Ahmedabad -> Ludhiana,Road,1251.1,0,34.4,813.74,20.62,834.36,81.6,1620.2,19.9,True
+RT00018,Ahmedabad,Ludhiana,Ahmedabad -> Ludhiana,Rail,1094.9,0,37.5,407.82,68.93,476.75,78.7,238.7,845.5,True
+RT00019,Ahmedabad,Ludhiana,Ahmedabad -> Ahmedabad -> Delhi -> Ludhiana,Road -> Air -> Road,1220.6,2,17.5,1869.35,262.08,2131.43,79.5,6720.8,20.4,True
+RT00020,Coimbatore,Jaipur,Coimbatore -> Jaipur,Road,2439.5,0,86.2,1532.11,11.0,1543.11,86.1,3373.8,20.0,True
+RT00021,Coimbatore,Jaipur,Coimbatore -> Bengaluru -> Jaipur -> Jaipur,Road -> Rail -> Road,2134.8,2,98.9,919.07,171.98,1091.05,73.9,946.5,17.1,False
+RT00022,Coimbatore,Jaipur,Coimbatore -> Jaipur,Air,1833.1,0,3.1,3405.17,76.56,3481.73,94.0,12135.1,21.0,True
+RT00023,Jaipur,Patna,Jaipur -> Patna,Road,1239.5,0,39.8,674.65,19.29,693.94,87.2,1558.1,21.7,True
+RT00024,Jaipur,Patna,Jaipur -> Patna,Rail,1149.7,0,37.4,357.33,40.8,398.13,75.1,397.8,1246.7,True
+RT00025,Ahmedabad,Indore,Ahmedabad -> Indore,Road,453.9,0,14.8,282.99,15.48,298.47,80.7,475.2,12.9,True
+RT00026,Ahmedabad,Indore,Ahmedabad -> Indore,Rail,407.3,0,18.6,290.43,49.58,340.01,85.8,140.1,1565.6,True
+RT00027,Ahmedabad,Indore,Ahmedabad -> Indore,Air,370.2,0,0.6,1141.51,145.62,1287.13,92.0,1717.0,23.8,True
+RT00028,Hyderabad,Mumbai,Hyderabad -> Mumbai,Road,820.6,0,20.9,490.11,15.81,505.92,84.8,980.6,22.1,True
+RT00029,Hyderabad,Mumbai,Hyderabad -> Mumbai,Rail,767.0,0,28.1,272.74,48.69,321.43,85.8,168.7,2339.4,True
+RT00030,Hyderabad,Mumbai,Hyderabad -> Mumbai,Air,689.2,0,0.9,1927.74,139.19,2066.93,88.7,3291.6,33.3,True
+RT00031,Mumbai,Visakhapatnam,Mumbai -> Visakhapatnam,Road,1429.0,0,36.0,868.51,12.76,881.27,92.7,1367.6,21.2,True
+RT00032,Indore,Kochi,Indore -> Kochi,Road,1945.5,0,67.8,1250.14,16.15,1266.29,84.0,2496.1,12.7,True
+RT00033,Indore,Kochi,Indore -> Indore -> Bengaluru -> Kochi,Road -> Rail -> Road,1820.7,2,83.5,906.84,162.25,1069.09,86.5,771.9,14.7,True
+RT00034,Indore,Kochi,Indore -> Kochi,Air,1460.6,0,2.1,3376.26,91.34,3467.6,93.0,9382.9,25.4,True
+RT00035,Chennai,Jaipur,Chennai -> Jaipur,Road,2159.8,0,76.7,1442.5,19.54,1462.04,81.9,2079.9,9.4,True
+RT00036,Chennai,Jaipur,Chennai -> Jaipur,Rail,1880.2,0,96.9,558.34,42.15,600.49,72.4,535.9,1879.3,False
+RT00037,Chennai,Jaipur,Chennai -> Jaipur,Air,1718.7,0,2.2,4169.98,109.59,4279.57,94.2,8120.9,17.6,True
+RT00038,Mumbai,Surat,Mumbai -> Surat,Road,294.4,0,8.5,198.53,19.87,218.4,84.2,365.6,23.0,True
+RT00039,Mumbai,Surat,Mumbai -> Mumbai -> Ahmedabad -> Surat,Road -> Rail -> Road,827.8,2,33.1,612.33,194.72,807.05,67.4,550.7,20.6,True
+RT00040,Mumbai,Surat,Mumbai -> Mumbai -> Ahmedabad -> Surat,Road -> Air -> Road,754.4,2,14.9,1589.17,271.59,1860.76,70.6,3826.9,20.6,True
+RT00041,Nagpur,Patna,Nagpur -> Patna,Road,1084.6,0,34.8,723.88,21.05,744.93,84.4,1400.2,22.4,True
+RT00042,Nagpur,Patna,Nagpur -> Patna,Rail,978.1,0,31.1,422.12,37.22,459.34,78.4,287.6,2011.1,True
+RT00043,Kolkata,Visakhapatnam,Kolkata -> Visakhapatnam,Road,971.5,0,33.1,504.0,22.98,526.98,84.4,968.6,16.1,True
+RT00044,Kolkata,Visakhapatnam,Kolkata -> Kolkata Port (Haldia) -> Visakhapatnam Port -> Visakhapatnam,Road -> Sea -> Road,983.4,2,44.2,544.32,344.96,889.28,77.9,87.5,25.0,True
+RT00045,Delhi,Kolkata,Delhi -> Kolkata,Road,1798.0,0,56.0,890.73,14.69,905.42,92.9,2044.3,15.7,True
+RT00046,Delhi,Kolkata,Delhi -> Kolkata,Rail,1667.0,0,63.6,662.8,46.76,709.56,81.4,341.7,944.9,True
+RT00047,Delhi,Kolkata,Delhi -> Kolkata,Air,1427.8,0,2.2,2587.59,65.92,2653.51,87.2,8335.5,26.2,True
+RT00048,Guwahati,Jaipur,Guwahati -> Jaipur,Road,2119.3,0,58.8,1374.99,17.69,1392.68,84.0,2337.6,15.1,True
+RT00049,Guwahati,Jaipur,Guwahati -> Jaipur,Rail,1914.6,0,62.9,677.32,38.26,715.58,79.3,474.8,1050.5,True
+RT00050,Guwahati,Jaipur,Guwahati -> Jaipur,Air,1754.5,0,2.8,4152.59,96.22,4248.81,86.6,8539.2,33.5,True
+RT00051,Bengaluru,Bhopal,Bengaluru -> Bhopal,Road,1547.7,0,43.9,816.61,24.14,840.75,85.3,1978.0,24.0,True
+RT00052,Bengaluru,Bhopal,Bengaluru -> Bengaluru -> Indore -> Bhopal,Road -> Rail -> Road,1532.4,2,73.6,772.76,162.32,935.08,84.5,551.2,16.4,True
+RT00053,Bengaluru,Bhopal,Bengaluru -> Bengaluru -> Indore -> Bhopal,Road -> Air -> Road,1355.5,2,15.2,2222.66,238.38,2461.05,88.2,7082.1,16.4,True
+RT00054,Guwahati,Mumbai,Guwahati -> Mumbai,Road,2771.1,0,107.7,1833.21,10.76,1843.97,89.3,2929.1,10.8,False
+RT00055,Guwahati,Mumbai,Guwahati -> Mumbai,Rail,2463.0,0,106.0,974.03,38.03,1012.06,91.8,588.7,2236.2,False
+RT00056,Guwahati,Mumbai,Guwahati -> Mumbai,Air,2206.0,0,3.5,4266.11,69.13,4335.24,86.9,10776.3,12.5,True
+RT00057,Bengaluru,Guwahati,Bengaluru -> Guwahati,Road,2737.6,0,82.0,1495.68,10.92,1506.6,92.4,2784.1,19.8,True
+RT00058,Bengaluru,Guwahati,Bengaluru -> Guwahati,Rail,2619.9,0,86.2,726.41,51.0,777.41,92.0,754.5,2434.5,True
+RT00059,Bengaluru,Guwahati,Bengaluru -> Guwahati,Air,2292.2,0,3.2,6490.18,121.39,6611.57,98.8,10571.6,28.3,True
+RT00060,Jaipur,Pune,Jaipur -> Pune,Road,1274.4,0,45.9,816.04,16.67,832.71,93.2,1394.2,9.5,True
+RT00061,Jaipur,Pune,Jaipur -> Jaipur -> Mumbai -> Pune,Road -> Rail -> Road,1236.8,2,54.6,476.68,193.04,669.72,64.4,537.8,21.8,True
+RT00062,Jaipur,Pune,Jaipur -> Pune,Air,1037.6,0,1.8,2204.86,92.67,2297.53,85.5,5310.4,38.2,True
+RT00063,Bhopal,Mumbai,Bhopal -> Mumbai,Road,837.0,0,22.7,511.32,14.66,525.98,89.8,833.7,22.0,True
+RT00064,Bhopal,Mumbai,Bhopal -> Indore -> Mumbai -> Mumbai,Road -> Rail -> Road,860.3,2,32.7,509.14,174.85,683.99,80.6,471.7,16.4,True
+RT00065,Bhopal,Mumbai,Bhopal -> Indore -> Mumbai -> Mumbai,Road -> Air -> Road,778.7,2,14.5,1586.85,194.61,1781.45,86.6,3657.6,16.4,True
+RT00066,Kochi,Kolkata,Kochi -> Kolkata,Road,2547.8,0,83.9,1522.05,14.53,1536.58,86.0,2591.1,20.1,True
+RT00067,Kochi,Kolkata,Kochi -> Bengaluru -> Kolkata -> Kolkata,Road -> Rail -> Road,2389.8,2,99.7,959.88,172.04,1131.92,76.4,874.5,14.7,False
+RT00068,Kochi,Kolkata,Kochi -> Kochi Port -> Kolkata Port (Haldia) -> Kolkata,Road -> Sea -> Road,2476.4,2,122.1,665.76,251.47,917.24,63.5,307.0,25.0,False
+RT00069,Kochi,Kolkata,Kochi -> Kolkata,Air,1978.8,0,3.4,3864.15,82.63,3946.78,94.7,12211.2,12.0,True
+RT00070,Guwahati,Visakhapatnam,Guwahati -> Visakhapatnam,Road,1760.1,0,65.5,1088.32,22.61,1110.93,93.6,1724.9,14.9,True
+RT00071,Jaipur,Mumbai,Jaipur -> Mumbai,Road,1256.3,0,36.1,696.0,13.59,709.59,87.9,1603.0,16.5,True
+RT00072,Jaipur,Mumbai,Jaipur -> Mumbai,Rail,1076.0,0,43.9,357.32,64.94,422.26,76.9,371.2,2020.5,True
+RT00073,Jaipur,Mumbai,Jaipur -> Mumbai,Air,1017.2,0,1.9,2216.81,91.43,2308.24,85.1,7610.7,31.8,True
+RT00074,Delhi,Patna,Delhi -> Patna,Road,1124.6,0,31.8,731.22,21.37,752.59,91.0,1230.3,15.1,True
+RT00075,Delhi,Patna,Delhi -> Patna,Rail,1067.9,0,40.8,523.09,59.38,582.47,85.4,295.8,857.1,True
+RT00076,Bengaluru,Hyderabad,Bengaluru -> Hyderabad,Road,643.3,0,19.9,336.48,13.22,349.7,88.3,603.4,13.4,True
+RT00077,Bengaluru,Hyderabad,Bengaluru -> Hyderabad,Rail,596.7,0,20.5,285.2,37.68,322.88,79.1,202.9,1845.0,True
+RT00078,Bengaluru,Hyderabad,Bengaluru -> Hyderabad,Air,547.3,0,0.9,1734.61,147.65,1882.26,95.7,3353.3,22.6,True
+RT00079,Jaipur,Surat,Jaipur -> Surat,Road,960.0,0,25.7,544.51,14.4,558.91,83.0,1188.5,10.2,True
+RT00080,Jaipur,Surat,Jaipur -> Jaipur -> Ahmedabad -> Surat,Road -> Rail -> Road,951.7,2,39.8,635.98,162.37,798.35,62.6,614.6,20.6,True
+RT00081,Jaipur,Surat,Jaipur -> Jaipur -> Ahmedabad -> Surat,Road -> Air -> Road,859.9,2,15.1,1437.84,202.07,1639.91,73.9,4159.8,20.6,True
+RT00082,Coimbatore,Nagpur,Coimbatore -> Nagpur,Road,1570.5,0,39.5,754.22,10.95,765.17,81.7,1806.1,14.2,True
+RT00083,Coimbatore,Nagpur,Coimbatore -> Bengaluru -> Nagpur -> Nagpur,Road -> Rail -> Road,1432.8,2,60.2,583.2,165.0,748.2,57.1,708.7,17.1,True
+RT00084,Coimbatore,Nagpur,Coimbatore -> Coimbatore -> Indore -> Nagpur,Road -> Air -> Road,1897.9,2,24.1,4303.76,221.69,4525.45,70.3,7212.5,6.0,True
+RT00085,Chennai,Hyderabad,Chennai -> Hyderabad,Road,651.8,0,20.6,360.48,19.14,379.62,79.4,652.5,20.3,True
+RT00086,Chennai,Hyderabad,Chennai -> Hyderabad,Rail,646.2,0,22.4,332.33,56.28,388.61,93.6,216.5,1884.9,True
+RT00087,Chennai,Hyderabad,Chennai -> Hyderabad,Air,542.2,0,0.9,1304.11,76.11,1380.22,92.7,2972.9,35.4,True
+RT00088,Chennai,Delhi,Chennai -> Delhi,Road,2344.5,0,76.8,1271.87,21.33,1293.2,84.9,3031.4,22.2,True
+RT00089,Chennai,Delhi,Chennai -> Delhi,Rail,2209.8,0,69.3,866.4,56.75,923.15,91.4,567.9,2339.3,True
+RT00090,Chennai,Delhi,Chennai -> Delhi,Air,1867.5,0,2.8,3754.64,85.1,3839.74,95.2,10213.4,14.6,True
+RT00091,Pune,Surat,Pune -> Surat,Road,415.5,0,11.2,312.73,15.81,328.54,80.7,545.6,24.9,True
+RT00092,Pune,Surat,Pune -> Mumbai -> Ahmedabad -> Surat,Road -> Rail -> Road,987.6,2,37.2,715.69,212.82,928.51,60.0,717.2,20.6,True
+RT00093,Pune,Surat,Pune -> Pune -> Ahmedabad -> Surat,Road -> Air -> Road,852.1,2,15.0,1827.43,243.76,2071.19,75.4,3406.5,5.4,True
+RT00094,Chennai,Indore,Chennai -> Indore,Road,1558.9,0,43.4,819.69,10.21,829.9,95.6,1446.7,16.5,True
+RT00095,Chennai,Indore,Chennai -> Indore,Rail,1455.8,0,48.9,616.89,32.28,649.17,89.9,295.5,1719.7,True
+RT00096,Chennai,Indore,Chennai -> Indore,Air,1277.4,0,1.6,2108.14,111.93,2220.07,85.2,6716.6,28.2,True
+RT00097,Lucknow,Nagpur,Lucknow -> Nagpur,Road,839.9,0,22.5,493.77,21.95,515.72,89.2,1133.9,23.9,True
+RT00098,Lucknow,Nagpur,Lucknow -> Nagpur,Rail,826.6,0,28.5,331.18,62.25,393.43,86.3,198.4,2223.9,True
+RT00099,Lucknow,Nagpur,Lucknow -> Lucknow -> Indore -> Nagpur,Road -> Air -> Road,1260.7,2,22.8,2644.39,254.58,2898.97,72.4,5574.5,9.3,True
+RT00100,Kochi,Ludhiana,Kochi -> Ludhiana,Road,3128.3,0,122.3,1750.38,21.41,1771.79,79.6,3976.1,23.7,False
+RT00101,Kochi,Ludhiana,Kochi -> Bengaluru -> Ludhiana -> Ludhiana,Road -> Rail -> Road,2860.4,2,103.9,930.28,168.24,1098.52,69.1,1191.5,14.7,False
+RT00102,Kochi,Ludhiana,Kochi -> Kochi -> Delhi -> Ludhiana,Road -> Air -> Road,2636.3,2,19.7,4230.6,235.02,4465.62,71.4,13109.3,23.8,True
+RT00103,Ludhiana,Surat,Ludhiana -> Surat,Road,1454.6,0,34.6,704.32,19.74,724.06,90.7,1950.6,12.1,True
+RT00104,Ludhiana,Surat,Ludhiana -> Ludhiana -> Ahmedabad -> Surat,Road -> Rail -> Road,1374.4,2,51.6,635.79,196.56,832.35,61.5,628.8,20.6,True
+RT00105,Ludhiana,Surat,Ludhiana -> Delhi -> Ahmedabad -> Surat,Road -> Air -> Road,1499.1,2,25.0,2081.31,279.71,2361.02,65.9,7110.8,20.4,True
+RT00106,Ahmedabad,Delhi,Ahmedabad -> Delhi,Road,1006.9,0,32.5,688.58,16.71,705.29,94.0,1040.1,24.2,True
+RT00107,Ahmedabad,Delhi,Ahmedabad -> Delhi,Rail,970.5,0,39.2,375.08,45.89,420.97,77.5,322.2,1943.5,True
+RT00108,Ahmedabad,Delhi,Ahmedabad -> Delhi,Air,849.7,0,1.4,1663.82,144.32,1808.14,98.7,6261.4,20.4,True
+RT00109,Delhi,Surat,Delhi -> Surat,Road,1194.4,0,31.8,726.62,19.56,746.18,89.4,1649.5,17.4,True
+RT00110,Delhi,Surat,Delhi -> Delhi -> Ahmedabad -> Surat,Road -> Rail -> Road,1250.0,2,53.3,603.05,173.52,776.57,60.5,712.3,20.6,True
+RT00111,Delhi,Surat,Delhi -> Delhi -> Ahmedabad -> Surat,Road -> Air -> Road,1129.2,2,15.5,1891.79,271.95,2163.74,77.1,6651.5,20.4,True
+RT00112,Bengaluru,Coimbatore,Bengaluru -> Coimbatore,Road,309.3,0,10.6,194.96,12.43,207.39,81.0,322.3,17.1,True
+RT00113,Bengaluru,Coimbatore,Bengaluru -> Chennai Port -> Kochi Port -> Coimbatore,Road -> Sea -> Road,1348.6,2,54.4,1292.66,425.36,1718.02,54.1,726.5,16.2,True
+RT00114,Bengaluru,Coimbatore,Bengaluru -> Coimbatore,Air,249.1,0,0.3,850.27,115.26,965.53,93.5,1654.5,22.3,True
+RT00115,Kochi,Nagpur,Kochi -> Nagpur,Road,1717.2,0,47.6,1130.24,18.94,1149.18,85.1,2356.0,10.6,True
+RT00116,Kochi,Nagpur,Kochi -> Bengaluru -> Nagpur -> Nagpur,Road -> Rail -> Road,1626.8,2,66.7,704.5,173.75,878.25,67.5,868.5,14.7,True
+RT00117,Kochi,Nagpur,Kochi -> Kochi -> Indore -> Nagpur,Road -> Air -> Road,1977.2,2,23.6,3752.9,209.82,3962.72,76.0,9858.8,23.7,True
+RT00118,Surat,Visakhapatnam,Surat -> Visakhapatnam,Road,1563.1,0,43.9,737.26,17.72,754.98,93.1,1616.2,16.2,True
+RT00119,Guwahati,Pune,Guwahati -> Pune,Road,2680.4,0,66.6,1618.14,24.38,1642.52,87.4,2524.9,20.5,True
+RT00120,Guwahati,Pune,Guwahati -> Guwahati -> Mumbai -> Pune,Road -> Rail -> Road,2623.8,2,116.7,1093.39,166.13,1259.52,76.9,755.3,21.8,False
+RT00121,Guwahati,Pune,Guwahati -> Pune,Air,2113.7,0,4.1,4813.15,139.69,4952.84,92.0,10980.7,23.6,True
+RT00122,Nagpur,Surat,Nagpur -> Surat,Road,875.3,0,24.4,560.03,12.36,572.39,80.2,796.5,13.1,True
+RT00123,Nagpur,Surat,Nagpur -> Nagpur -> Ahmedabad -> Surat,Road -> Rail -> Road,1137.7,2,55.2,641.72,159.49,801.21,64.4,629.5,20.6,True
+RT00124,Nagpur,Surat,Nagpur -> Indore -> Ahmedabad -> Surat,Road -> Air -> Road,1165.3,2,29.6,1730.11,281.73,2011.84,62.4,2582.9,20.6,True
+RT00125,Ahmedabad,Lucknow,Ahmedabad -> Lucknow,Road,1273.2,0,37.4,811.36,10.26,821.62,87.4,1776.1,16.4,True
+RT00126,Ahmedabad,Lucknow,Ahmedabad -> Lucknow,Rail,1109.2,0,33.5,491.19,42.83,534.02,77.6,319.4,579.6,True
+RT00127,Ahmedabad,Lucknow,Ahmedabad -> Lucknow,Air,964.3,0,1.6,2910.06,148.48,3058.54,92.1,5633.4,20.7,True
+RT00128,Ludhiana,Nagpur,Ludhiana -> Nagpur,Road,1505.3,0,45.8,804.58,13.61,818.19,94.0,1877.1,23.5,True
+RT00129,Ludhiana,Nagpur,Ludhiana -> Nagpur,Rail,1384.9,0,45.9,427.82,37.12,464.94,82.1,434.9,2422.6,True
+RT00130,Ludhiana,Nagpur,Ludhiana -> Delhi -> Indore -> Nagpur,Road -> Air -> Road,1612.9,2,32.5,2078.99,233.63,2312.62,65.6,4821.4,20.4,True
+RT00131,Hyderabad,Pune,Hyderabad -> Pune,Road,645.5,0,25.1,357.59,22.49,380.08,93.9,810.1,16.0,True
+RT00132,Hyderabad,Pune,Hyderabad -> Hyderabad -> Mumbai -> Pune,Road -> Rail -> Road,927.8,2,38.8,392.1,176.79,568.89,71.9,335.3,21.8,True
+RT00133,Hyderabad,Pune,Hyderabad -> Pune,Air,530.0,0,0.8,1618.35,67.62,1685.97,93.3,2824.9,7.8,True
+RT00134,Kolkata,Ludhiana,Kolkata -> Ludhiana,Road,2006.8,0,71.4,1066.67,24.1,1090.77,89.6,2004.8,22.7,True
+RT00135,Kolkata,Ludhiana,Kolkata -> Ludhiana,Rail,1852.8,0,82.2,710.68,32.15,742.83,87.2,491.0,1266.6,True
+RT00136,Kolkata,Ludhiana,Kolkata -> Kolkata -> Delhi -> Ludhiana,Road -> Air -> Road,1798.7,2,18.3,2793.12,183.68,2976.8,70.2,8794.8,23.8,True
+RT00137,Bengaluru,Delhi,Bengaluru -> Delhi,Road,2247.4,0,72.0,1370.35,22.11,1392.46,90.2,2478.9,22.1,True
+RT00138,Bengaluru,Delhi,Bengaluru -> Delhi,Rail,2114.5,0,77.9,880.44,34.84,915.28,75.5,644.9,1856.3,True
+RT00139,Bengaluru,Delhi,Bengaluru -> Delhi,Air,1809.1,0,2.7,4614.84,84.46,4699.3,89.6,10221.4,9.4,True
+RT00140,Bhopal,Nagpur,Bhopal -> Nagpur,Road,384.4,0,12.3,280.83,18.68,299.51,80.1,500.9,21.9,True
+RT00141,Bhopal,Nagpur,Bhopal -> Indore -> Nagpur -> Nagpur,Road -> Rail -> Road,663.4,2,34.0,521.42,189.16,710.58,68.7,353.8,16.4,True
+RT00142,Bhopal,Delhi,Bhopal -> Delhi,Road,824.9,0,23.3,530.53,12.14,542.67,82.8,852.9,12.4,True
+RT00143,Bhopal,Delhi,Bhopal -> Indore -> Delhi -> Delhi,Road -> Rail -> Road,1070.3,2,56.0,629.44,173.43,802.87,79.2,465.8,16.4,True
+RT00144,Bhopal,Delhi,Bhopal -> Indore -> Delhi -> Delhi,Road -> Air -> Road,941.9,2,15.0,1703.01,233.64,1936.65,85.1,4147.7,16.4,True
+RT00145,Chennai,Visakhapatnam,Chennai -> Visakhapatnam,Road,788.8,0,20.4,415.92,18.1,434.02,89.8,1067.2,13.7,True
+RT00146,Chennai,Visakhapatnam,Chennai -> Chennai Port -> Visakhapatnam Port -> Visakhapatnam,Road -> Sea -> Road,854.8,2,43.8,424.48,256.62,681.1,82.4,140.1,25.0,True
+RT00147,Jaipur,Nagpur,Jaipur -> Nagpur,Road,966.9,0,24.6,502.27,14.23,516.5,78.6,1258.9,19.9,True
+RT00148,Jaipur,Nagpur,Jaipur -> Nagpur,Rail,884.2,0,39.7,371.76,69.45,441.21,72.8,298.0,2331.1,True
+RT00149,Jaipur,Nagpur,Jaipur -> Jaipur -> Indore -> Nagpur,Road -> Air -> Road,1024.1,2,22.3,1628.88,267.83,1896.71,79.1,3104.7,23.7,True
+RT00150,Coimbatore,Indore,Coimbatore -> Indore,Road,1769.9,0,48.8,1008.15,16.68,1024.83,80.9,1649.5,12.7,True
+RT00151,Coimbatore,Indore,Coimbatore -> Bengaluru -> Indore -> Indore,Road -> Rail -> Road,1626.7,2,77.0,785.54,153.5,939.04,73.2,612.1,17.1,True
+RT00152,Coimbatore,Indore,Coimbatore -> Indore,Air,1381.3,0,2.6,3927.12,103.21,4030.33,86.1,6736.6,6.0,True
+RT00153,Bhopal,Indore,Bhopal -> Indore,Road,215.0,0,7.2,182.19,21.25,203.44,93.5,261.4,16.4,True
+RT00154,Ahmedabad,Pune,Ahmedabad -> Pune,Road,659.2,0,19.1,452.38,15.56,467.94,81.4,769.9,21.1,True
+RT00155,Ahmedabad,Pune,Ahmedabad -> Ahmedabad -> Mumbai -> Pune,Road -> Rail -> Road,709.1,2,29.7,503.72,195.19,698.91,72.3,327.3,21.8,True
+RT00156,Ahmedabad,Pune,Ahmedabad -> Pune,Air,572.6,0,0.9,1599.47,116.13,1715.6,96.6,3016.5,5.4,True
+RT00157,Guwahati,Kolkata,Guwahati -> Kolkata,Road,718.4,0,21.7,383.74,16.92,400.66,92.1,839.1,13.1,True
+RT00158,Guwahati,Kolkata,Guwahati -> Kolkata,Rail,633.7,0,19.2,303.88,60.29,364.17,76.9,213.6,1469.5,True
+RT00159,Guwahati,Kolkata,Guwahati -> Kolkata,Air,542.2,0,0.9,1308.73,99.48,1408.21,89.8,3111.1,34.5,True
+RT00160,Bhopal,Jaipur,Bhopal -> Jaipur,Road,571.2,0,22.7,311.63,14.73,326.36,82.1,758.0,9.1,True
+RT00161,Bhopal,Jaipur,Bhopal -> Indore -> Jaipur -> Jaipur,Road -> Rail -> Road,762.5,2,30.7,524.9,181.09,705.99,70.5,387.8,16.4,True
+RT00162,Bhopal,Jaipur,Bhopal -> Indore -> Jaipur -> Jaipur,Road -> Air -> Road,723.0,2,14.3,1442.43,275.6,1718.03,87.9,2890.3,16.4,True
+RT00163,Guwahati,Indore,Guwahati -> Indore,Road,2153.9,0,76.9,1212.01,13.88,1225.89,82.7,2341.3,18.2,True
+RT00164,Guwahati,Indore,Guwahati -> Indore,Rail,2065.5,0,68.9,679.93,67.79,747.72,81.4,444.1,2453.6,True
+RT00165,Guwahati,Indore,Guwahati -> Indore,Air,1740.4,0,2.7,3162.76,122.26,3285.02,86.9,9528.7,14.9,True
+RT00166,Bhopal,Hyderabad,Bhopal -> Hyderabad,Road,881.3,0,21.7,513.39,23.3,536.69,86.7,917.4,22.0,True
+RT00167,Bhopal,Hyderabad,Bhopal -> Indore -> Hyderabad -> Hyderabad,Road -> Rail -> Road,981.6,2,42.8,626.44,178.11,804.55,85.2,461.4,16.4,True
+RT00168,Bhopal,Hyderabad,Bhopal -> Indore -> Hyderabad -> Hyderabad,Road -> Air -> Road,888.0,2,14.7,1719.9,261.37,1981.27,80.9,4399.4,16.4,True
+RT00169,Coimbatore,Lucknow,Coimbatore -> Lucknow,Road,2475.2,0,81.7,1524.77,18.78,1543.55,91.3,2549.5,21.1,True
+RT00170,Coimbatore,Lucknow,Coimbatore -> Bengaluru -> Lucknow -> Lucknow,Road -> Rail -> Road,2155.8,2,79.5,887.74,162.24,1049.98,58.1,935.2,17.1,True
+RT00171,Coimbatore,Lucknow,Coimbatore -> Lucknow,Air,1938.9,0,3.5,4575.23,97.99,4673.22,95.9,14460.3,7.4,True
+RT00172,Coimbatore,Guwahati,Coimbatore -> Guwahati,Road,3036.5,0,93.7,1779.44,11.39,1790.83,92.3,4099.3,19.2,True
+RT00173,Coimbatore,Guwahati,Coimbatore -> Bengaluru -> Guwahati -> Guwahati,Road -> Rail -> Road,2929.7,2,103.1,929.37,168.43,1097.8,72.3,1076.9,17.1,False
+RT00174,Coimbatore,Guwahati,Coimbatore -> Guwahati,Air,2459.9,0,3.8,5691.38,71.78,5763.16,88.5,14363.4,24.2,True
+RT00175,Hyderabad,Jaipur,Hyderabad -> Jaipur,Road,1456.9,0,43.6,943.8,18.43,962.23,85.7,1595.3,19.1,True
+RT00176,Hyderabad,Jaipur,Hyderabad -> Jaipur,Rail,1298.8,0,46.7,450.49,64.47,514.96,84.3,302.6,2104.1,True
+RT00177,Hyderabad,Jaipur,Hyderabad -> Jaipur,Air,1190.7,0,1.6,3546.03,118.11,3664.14,97.5,5667.7,8.6,True
+RT00178,Hyderabad,Nagpur,Hyderabad -> Nagpur,Road,565.0,0,15.6,391.88,16.97,408.85,90.5,772.9,14.1,True
+RT00179,Hyderabad,Nagpur,Hyderabad -> Nagpur,Rail,520.2,0,21.3,291.77,40.76,332.53,78.0,172.7,578.7,True
+RT00180,Hyderabad,Nagpur,Hyderabad -> Hyderabad -> Indore -> Nagpur,Road -> Air -> Road,1189.1,2,22.7,1906.35,253.6,2159.95,72.9,4613.8,23.7,True
+RT00181,Indore,Patna,Indore -> Patna,Road,1309.1,0,34.9,815.1,22.61,837.71,89.9,1534.3,23.3,True
+RT00182,Indore,Patna,Indore -> Patna,Rail,1195.8,0,55.8,424.81,43.35,468.16,88.6,340.8,770.1,True
+RT00183,Chennai,Lucknow,Chennai -> Lucknow,Road,2109.5,0,56.1,1204.6,16.53,1221.13,80.7,2778.2,11.0,True
+RT00184,Chennai,Lucknow,Chennai -> Lucknow,Rail,1864.4,0,64.8,677.95,42.89,720.84,92.6,400.8,2186.1,True
+RT00185,Chennai,Lucknow,Chennai -> Lucknow,Air,1586.8,0,2.5,3075.64,99.39,3175.03,94.9,9923.8,23.9,True
+RT00186,Lucknow,Ludhiana,Lucknow -> Ludhiana,Road,846.0,0,32.0,527.45,22.92,550.37,89.6,837.5,10.8,True
+RT00187,Lucknow,Ludhiana,Lucknow -> Ludhiana,Rail,780.0,0,28.3,342.62,48.73,391.35,78.3,179.4,1192.4,True
+RT00188,Lucknow,Ludhiana,Lucknow -> Lucknow -> Delhi -> Ludhiana,Road -> Air -> Road,850.0,2,17.0,1696.85,250.97,1947.82,74.6,2814.1,23.8,True
+RT00189,Indore,Lucknow,Indore -> Lucknow,Road,907.1,0,31.6,450.52,24.95,475.47,81.8,1174.7,12.4,True
+RT00190,Indore,Lucknow,Indore -> Lucknow,Rail,864.4,0,30.1,331.44,47.05,378.49,82.4,288.7,856.6,True
+RT00191,Indore,Lucknow,Indore -> Lucknow,Air,744.1,0,1.3,2267.75,136.1,2403.85,88.6,5098.6,9.3,True
+RT00192,Patna,Visakhapatnam,Patna -> Visakhapatnam,Road,1218.0,0,37.7,638.53,14.2,652.73,91.9,1389.7,14.2,True
+RT00193,Ludhiana,Mumbai,Ludhiana -> Mumbai,Road,1844.6,0,52.9,1080.38,10.7,1091.08,82.5,2184.0,13.0,True
+RT00194,Ludhiana,Mumbai,Ludhiana -> Mumbai,Rail,1696.5,0,60.4,553.73,39.61,593.34,91.2,453.0,1234.3,True
+RT00195,Ludhiana,Mumbai,Ludhiana -> Delhi -> Mumbai -> Mumbai,Road -> Air -> Road,1625.0,2,18.0,3716.03,259.09,3975.12,79.5,7989.0,23.8,True
+RT00196,Indore,Jaipur,Indore -> Jaipur,Road,589.1,0,22.2,365.69,14.01,379.7,92.8,537.3,22.7,True
+RT00197,Indore,Jaipur,Indore -> Jaipur,Rail,547.0,0,17.2,334.71,54.84,389.55,77.7,126.4,987.1,True
+RT00198,Indore,Jaipur,Indore -> Jaipur,Air,507.5,0,0.8,1252.25,149.35,1401.6,96.9,2628.8,35.4,True
+RT00199,Bengaluru,Kolkata,Bengaluru -> Kolkata,Road,1981.4,0,69.5,1116.01,24.53,1140.54,80.8,2346.0,15.3,True
+RT00200,Bengaluru,Kolkata,Bengaluru -> Kolkata,Rail,1886.0,0,76.3,635.62,45.86,681.48,82.3,392.3,1536.9,True
+RT00201,Bengaluru,Kolkata,Bengaluru -> Chennai Port -> Kolkata Port (Haldia) -> Kolkata,Road -> Sea -> Road,2194.0,2,99.4,912.11,315.97,1228.08,67.4,556.4,16.2,False
+RT00202,Bengaluru,Kolkata,Bengaluru -> Kolkata,Air,1729.8,0,3.1,3658.78,119.54,3778.32,86.8,8801.2,20.5,True
+RT00203,Coimbatore,Ludhiana,Coimbatore -> Ludhiana,Road,2946.9,0,93.0,1562.05,10.28,1572.33,95.0,3091.3,13.1,True
+RT00204,Coimbatore,Ludhiana,Coimbatore -> Bengaluru -> Ludhiana -> Ludhiana,Road -> Rail -> Road,2666.4,2,97.4,808.98,159.49,968.47,58.5,1031.7,17.1,False
+RT00205,Coimbatore,Ludhiana,Coimbatore -> Coimbatore -> Delhi -> Ludhiana,Road -> Air -> Road,2523.4,2,19.2,4823.3,265.97,5089.27,77.0,11297.2,23.8,True
+RT00206,Kolkata,Lucknow,Kolkata -> Lucknow,Road,1216.6,0,33.0,645.4,20.92,666.32,83.4,1410.0,22.3,True
+RT00207,Kolkata,Lucknow,Kolkata -> Lucknow,Rail,1059.6,0,32.2,394.3,43.76,438.06,93.4,357.1,1882.9,True
+RT00208,Kolkata,Lucknow,Kolkata -> Lucknow,Air,980.4,0,1.8,2396.16,136.88,2533.04,88.9,5239.3,7.2,True
+RT00209,Bhopal,Ludhiana,Bhopal -> Ludhiana,Road,1149.7,0,40.4,785.23,22.75,807.98,81.1,1564.7,16.2,True
+RT00210,Bhopal,Ludhiana,Bhopal -> Indore -> Ludhiana -> Ludhiana,Road -> Rail -> Road,1313.1,2,64.6,607.04,159.94,766.98,79.8,508.4,16.4,True
+RT00211,Bhopal,Ludhiana,Bhopal -> Indore -> Delhi -> Ludhiana,Road -> Air -> Road,1311.8,2,24.5,1892.54,241.4,2133.94,72.8,4607.0,16.4,True
+RT00212,Jaipur,Lucknow,Jaipur -> Lucknow,Road,673.2,0,18.7,343.18,10.95,354.13,83.8,880.5,15.6,True
+RT00213,Jaipur,Lucknow,Jaipur -> Lucknow,Rail,623.7,0,27.6,345.76,31.84,377.6,73.8,165.9,532.5,True
+RT00214,Jaipur,Lucknow,Jaipur -> Lucknow,Air,560.3,0,0.9,1307.2,93.6,1400.8,88.2,3653.7,29.4,True
+RT00215,Coimbatore,Visakhapatnam,Coimbatore -> Visakhapatnam,Road,1319.0,0,37.8,906.19,19.51,925.7,83.1,1833.4,21.8,True
+RT00216,Coimbatore,Visakhapatnam,Coimbatore -> Kochi Port -> Visakhapatnam Port -> Visakhapatnam,Road -> Sea -> Road,1790.0,2,82.9,685.63,374.1,1059.73,68.8,456.0,17.6,True
+RT00217,Bengaluru,Jaipur,Bengaluru -> Jaipur,Road,2143.3,0,64.1,1146.64,21.28,1167.92,81.6,2454.1,17.8,True
+RT00218,Bengaluru,Jaipur,Bengaluru -> Jaipur,Rail,1825.0,0,82.0,716.11,54.55,770.65,94.0,624.1,992.6,True
+RT00219,Bengaluru,Jaipur,Bengaluru -> Jaipur,Air,1605.1,0,2.2,4496.92,67.9,4564.82,95.6,11683.5,20.9,True
+RT00220,Ahmedabad,Chennai,Ahmedabad -> Chennai,Road,1770.5,0,66.0,941.85,24.86,966.71,88.8,1890.9,17.3,True
+RT00221,Ahmedabad,Chennai,Ahmedabad -> Chennai,Rail,1678.3,0,61.5,496.07,54.22,550.29,92.6,453.1,1931.1,True
+RT00222,Ahmedabad,Chennai,Ahmedabad -> Chennai,Air,1430.3,0,2.5,2673.78,123.21,2796.99,92.1,8265.7,21.4,True
+RT00223,Hyderabad,Ludhiana,Hyderabad -> Ludhiana,Road,2016.0,0,56.4,1047.61,16.93,1064.54,85.9,2401.1,9.9,True
+RT00224,Hyderabad,Ludhiana,Hyderabad -> Ludhiana,Rail,1848.9,0,57.4,705.92,63.1,769.02,84.8,499.2,1678.1,True
+RT00225,Hyderabad,Ludhiana,Hyderabad -> Hyderabad -> Delhi -> Ludhiana,Road -> Air -> Road,1711.2,2,18.6,3087.67,219.95,3307.62,79.1,7171.6,23.8,True
+RT00226,Bengaluru,Ludhiana,Bengaluru -> Ludhiana,Road,2739.0,0,72.2,1583.15,18.46,1601.61,80.8,3029.3,25.0,True
+RT00227,Bengaluru,Ludhiana,Bengaluru -> Ludhiana,Rail,2356.6,0,80.5,606.01,42.06,648.07,74.4,709.3,652.1,True
+RT00228,Bengaluru,Ludhiana,Bengaluru -> Bengaluru -> Delhi -> Ludhiana,Road -> Air -> Road,2180.0,2,18.8,4820.37,202.22,5022.59,72.1,10680.8,9.4,True
+RT00229,Ahmedabad,Guwahati,Ahmedabad -> Guwahati,Road,2651.6,0,77.5,1524.5,23.83,1548.33,82.7,2890.2,21.3,True
+RT00230,Ahmedabad,Guwahati,Ahmedabad -> Guwahati,Rail,2332.3,0,80.3,972.27,39.47,1011.74,93.0,669.4,1858.2,True
+RT00231,Ahmedabad,Guwahati,Ahmedabad -> Guwahati,Air,2096.2,0,3.4,3665.37,62.58,3727.95,92.2,10445.4,21.0,True
+RT00232,Ahmedabad,Jaipur,Ahmedabad -> Jaipur,Road,686.8,0,18.2,488.43,24.05,512.48,95.3,638.7,15.2,True
+RT00233,Ahmedabad,Jaipur,Ahmedabad -> Jaipur,Rail,672.2,0,25.7,408.01,34.74,442.75,80.2,224.5,901.9,True
+RT00234,Ahmedabad,Jaipur,Ahmedabad -> Jaipur,Air,580.4,0,1.0,1209.87,74.44,1284.31,94.6,3769.7,20.9,True
+RT00235,Kolkata,Surat,Kolkata -> Surat,Road,2052.9,0,65.1,1005.82,14.13,1019.95,92.2,2443.0,14.8,True
+RT00236,Kolkata,Surat,Kolkata -> Kolkata -> Ahmedabad -> Surat,Road -> Rail -> Road,2236.0,2,72.4,765.62,169.51,935.13,73.1,810.7,20.6,True
+RT00237,Kolkata,Surat,Kolkata -> Kolkata -> Ahmedabad -> Surat,Road -> Air -> Road,1959.1,2,17.0,3390.95,237.8,3628.75,71.2,10316.5,20.6,True
+RT00238,Coimbatore,Kochi,Coimbatore -> Kochi,Road,187.2,0,4.7,157.91,14.97,172.88,80.0,258.9,17.6,True
+RT00239,Coimbatore,Kochi,Coimbatore -> Kochi,Air,145.5,0,0.3,756.97,94.52,851.49,95.8,669.9,15.0,True
+RT00240,Ludhiana,Pune,Ludhiana -> Pune,Road,1877.6,0,70.2,1101.53,24.05,1125.58,95.4,2444.6,10.5,True
+RT00241,Ludhiana,Pune,Ludhiana -> Ludhiana -> Mumbai -> Pune,Road -> Rail -> Road,1857.3,2,71.1,673.09,167.71,840.8,76.4,619.6,21.8,True
+RT00242,Ludhiana,Pune,Ludhiana -> Delhi -> Pune -> Pune,Road -> Air -> Road,1615.8,2,18.1,3469.15,183.44,3652.59,75.3,9295.6,23.8,True
+RT00243,Chennai,Surat,Chennai -> Surat,Road,1597.8,0,53.3,1041.63,14.99,1056.62,87.8,1517.9,19.8,True
+RT00244,Chennai,Surat,Chennai -> Chennai -> Ahmedabad -> Surat,Road -> Rail -> Road,1957.8,2,75.6,724.03,181.85,905.88,72.3,843.2,20.6,True
+RT00245,Chennai,Surat,Chennai -> Chennai -> Ahmedabad -> Surat,Road -> Air -> Road,1709.8,2,16.6,2901.75,250.84,3152.59,71.9,8655.8,20.6,True
+RT00246,Kochi,Surat,Kochi -> Surat,Road,1742.7,0,50.1,875.17,22.57,897.74,86.3,2037.2,13.3,True
+RT00247,Kochi,Surat,Kochi -> Bengaluru -> Ahmedabad -> Surat,Road -> Rail -> Road,2305.9,2,83.8,1146.85,189.18,1336.03,58.6,1381.1,14.7,True
+RT00248,Kochi,Surat,Kochi -> Kochi -> Ahmedabad -> Surat,Road -> Air -> Road,1919.9,2,17.0,2988.79,221.34,3210.13,73.4,9824.0,5.5,True
+RT00249,Chennai,Pune,Chennai -> Pune,Road,1176.0,0,38.0,659.48,21.29,680.77,91.7,1137.2,10.2,True
+RT00250,Chennai,Pune,Chennai -> Chennai -> Mumbai -> Pune,Road -> Rail -> Road,1410.6,2,51.2,504.29,187.69,691.98,64.7,511.5,21.8,True
+RT00251,Chennai,Pune,Chennai -> Pune,Air,952.3,0,1.5,2097.47,114.67,2212.14,98.5,4495.8,24.1,True
+RT00252,Pune,Visakhapatnam,Pune -> Visakhapatnam,Road,1280.5,0,41.8,824.02,21.42,845.44,91.2,1260.0,19.9,True
+RT00253,Guwahati,Ludhiana,Guwahati -> Ludhiana,Road,2232.5,0,64.2,1465.93,17.67,1483.6,86.7,2286.1,20.1,True
+RT00254,Guwahati,Ludhiana,Guwahati -> Ludhiana,Rail,2019.7,0,76.9,808.61,38.25,846.86,80.0,644.3,1752.2,True
+RT00255,Guwahati,Ludhiana,Guwahati -> Guwahati -> Delhi -> Ludhiana,Road -> Air -> Road,1880.6,2,18.2,3475.5,207.54,3683.04,71.8,11333.7,23.8,True
+RT00256,Bengaluru,Surat,Bengaluru -> Surat,Road,1334.9,0,40.5,678.55,21.01,699.56,87.8,1575.2,15.0,True
+RT00257,Bengaluru,Surat,Bengaluru -> Bengaluru -> Ahmedabad -> Surat,Road -> Rail -> Road,1803.1,2,67.0,838.58,173.0,1011.58,59.4,899.0,20.6,True
+RT00258,Bengaluru,Surat,Bengaluru -> Bengaluru -> Ahmedabad -> Surat,Road -> Air -> Road,1655.5,2,16.3,3045.42,213.35,3258.77,72.8,6849.0,20.6,True
+RT00259,Bengaluru,Pune,Bengaluru -> Pune,Road,959.8,0,31.7,581.68,15.71,597.39,84.8,1123.0,22.3,True
+RT00260,Bengaluru,Pune,Bengaluru -> Bengaluru -> Mumbai -> Pune,Road -> Rail -> Road,1166.2,2,43.3,553.35,173.3,726.65,61.5,411.9,21.8,True
+RT00261,Bengaluru,Pune,Bengaluru -> Pune,Air,770.6,0,1.2,1763.37,121.45,1884.82,97.9,3600.2,20.1,True
+RT00262,Ahmedabad,Kolkata,Ahmedabad -> Kolkata,Road,2134.6,0,49.3,1234.87,15.98,1250.85,94.7,2141.0,14.1,True
+RT00263,Ahmedabad,Kolkata,Ahmedabad -> Kolkata,Rail,1956.5,0,58.3,537.65,41.88,579.53,93.6,420.6,587.5,True
+RT00264,Ahmedabad,Kolkata,Ahmedabad -> Kolkata,Air,1679.6,0,2.9,3162.98,110.17,3273.15,91.2,9926.4,25.9,True
+RT00265,Delhi,Hyderabad,Delhi -> Hyderabad,Road,1663.4,0,41.9,932.69,18.69,951.38,88.5,1650.1,19.8,True
+RT00266,Delhi,Hyderabad,Delhi -> Hyderabad,Rail,1546.5,0,70.8,615.83,59.79,675.62,82.5,317.0,2333.9,True
+RT00267,Delhi,Hyderabad,Delhi -> Hyderabad,Air,1340.3,0,2.5,2882.15,102.19,2984.34,98.3,6712.2,34.0,True
+RT00268,Patna,Surat,Patna -> Surat,Road,1758.9,0,54.5,1186.84,16.45,1203.29,95.1,1762.4,12.8,True
+RT00269,Patna,Surat,Patna -> Patna -> Ahmedabad -> Surat,Road -> Rail -> Road,1932.3,2,76.7,818.98,176.45,995.43,59.1,742.1,20.6,True
+RT00270,Ahmedabad,Kochi,Ahmedabad -> Kochi,Road,2058.4,0,61.4,1250.57,11.38,1261.95,91.3,2486.5,17.1,True
+RT00271,Ahmedabad,Kochi,Ahmedabad -> Ahmedabad -> Bengaluru -> Kochi,Road -> Rail -> Road,2027.4,2,76.3,934.88,171.55,1106.43,70.6,991.1,14.7,True
+RT00272,Ahmedabad,Kochi,Ahmedabad -> Kochi,Air,1640.4,0,2.9,2760.83,93.71,2854.54,94.0,9433.9,5.5,True
+RT00273,Ahmedabad,Patna,Ahmedabad -> Patna,Road,1694.2,0,51.4,1043.4,20.17,1063.57,88.9,2000.9,14.5,True
+RT00274,Ahmedabad,Patna,Ahmedabad -> Patna,Rail,1652.8,0,62.6,591.02,48.82,639.84,75.7,352.0,1052.6,True
+RT00275,Guwahati,Kochi,Guwahati -> Kochi,Road,3194.7,0,83.7,1787.7,10.53,1798.23,82.9,3265.0,22.6,True
+RT00276,Guwahati,Kochi,Guwahati -> Guwahati -> Bengaluru -> Kochi,Road -> Rail -> Road,3123.7,2,109.6,1050.67,177.18,1227.85,85.4,1236.7,14.7,False
+RT00277,Guwahati,Kochi,Guwahati -> Kochi,Air,2623.0,0,5.1,6887.6,122.24,7009.84,91.5,14069.8,24.6,True
+RT00278,Coimbatore,Kolkata,Coimbatore -> Kolkata,Road,2363.4,0,65.9,1189.46,21.18,1210.64,82.2,3093.7,16.4,True
+RT00279,Coimbatore,Kolkata,Coimbatore -> Bengaluru -> Kolkata -> Kolkata,Road -> Rail -> Road,2195.8,2,93.2,838.58,163.29,1001.87,64.7,714.6,17.1,True
+RT00280,Coimbatore,Kolkata,Coimbatore -> Kochi Port -> Kolkata Port (Haldia) -> Kolkata,Road -> Sea -> Road,2663.1,2,126.5,815.67,261.44,1077.12,52.4,565.9,17.6,False
+RT00281,Coimbatore,Kolkata,Coimbatore -> Kolkata,Air,1806.3,0,2.7,5019.33,124.93,5144.26,93.0,9221.2,16.5,True
+RT00282,Indore,Visakhapatnam,Indore -> Visakhapatnam,Road,1280.9,0,33.2,758.47,15.03,773.5,87.0,1230.9,19.2,True
+RT00283,Mumbai,Pune,Mumbai -> Pune,Road,160.3,0,4.4,111.36,23.1,134.46,86.4,166.6,21.8,True
+RT00284,Mumbai,Pune,Mumbai -> Pune,Air,130.5,0,0.2,737.95,84.52,822.47,94.9,903.2,18.8,True
+RT00285,Ahmedabad,Visakhapatnam,Ahmedabad -> Visakhapatnam,Road,1709.4,0,43.7,1037.29,15.39,1052.68,95.3,2364.1,19.4,True
+RT00286,Hyderabad,Lucknow,Hyderabad -> Lucknow,Road,1401.1,0,33.4,714.12,16.74,730.86,87.9,1860.7,13.8,True
+RT00287,Hyderabad,Lucknow,Hyderabad -> Lucknow,Rail,1265.5,0,47.8,562.06,32.3,594.36,92.1,402.4,934.0,True
+RT00288,Hyderabad,Lucknow,Hyderabad -> Lucknow,Air,1156.4,0,2.1,2982.47,125.44,3107.91,97.8,5856.0,25.2,True
+RT00289,Chennai,Coimbatore,Chennai -> Coimbatore,Road,561.1,0,19.9,363.92,23.45,387.37,87.1,517.9,24.0,True
+RT00290,Chennai,Coimbatore,Chennai -> Chennai -> Bengaluru -> Coimbatore,Road -> Rail -> Road,662.0,2,30.8,446.19,180.12,626.31,72.1,398.4,17.1,True
+RT00291,Chennai,Coimbatore,Chennai -> Chennai Port -> Kochi Port -> Coimbatore,Road -> Sea -> Road,982.3,2,45.0,1071.33,416.18,1487.51,63.1,382.1,17.6,True
+RT00292,Chennai,Coimbatore,Chennai -> Coimbatore,Air,436.8,0,0.6,1164.78,108.56,1273.34,94.2,2326.4,8.3,True
+RT00293,Kolkata,Pune,Kolkata -> Pune,Road,2124.5,0,51.1,1086.61,19.67,1106.28,93.2,2332.7,24.0,True
+RT00294,Kolkata,Pune,Kolkata -> Kolkata -> Mumbai -> Pune,Road -> Rail -> Road,2098.8,2,106.3,769.47,189.3,958.77,72.5,815.8,21.8,False
+RT00295,Kolkata,Pune,Kolkata -> Pune,Air,1685.8,0,2.3,3985.78,96.41,4082.19,97.6,12638.4,29.6,True
+RT00296,Bhopal,Lucknow,Bhopal -> Lucknow,Road,721.9,0,22.3,475.23,12.97,488.2,86.1,688.0,13.3,True
+RT00297,Bhopal,Lucknow,Bhopal -> Indore -> Lucknow -> Lucknow,Road -> Rail -> Road,1079.9,2,43.6,521.62,173.3,694.92,74.7,550.2,16.4,True
+RT00298,Bhopal,Lucknow,Bhopal -> Indore -> Lucknow -> Lucknow,Road -> Air -> Road,959.6,2,14.8,2457.94,262.35,2720.29,80.4,5360.1,9.3,True
+RT00299,Bengaluru,Visakhapatnam,Bengaluru -> Visakhapatnam,Road,1074.1,0,30.3,740.62,11.93,752.55,84.0,984.9,10.5,True
+RT00300,Bengaluru,Visakhapatnam,Bengaluru -> Chennai Port -> Visakhapatnam Port -> Visakhapatnam,Road -> Sea -> Road,1221.1,2,53.2,645.81,265.8,911.61,70.7,484.5,16.2,True
+RT00301,Bhopal,Pune,Bhopal -> Pune,Road,832.7,0,23.2,540.15,16.5,556.65,84.0,836.9,22.4,True
+RT00302,Bhopal,Pune,Bhopal -> Indore -> Mumbai -> Pune,Road -> Rail -> Road,1020.1,2,36.8,612.49,192.95,805.44,71.8,638.2,16.4,True
+RT00303,Bhopal,Pune,Bhopal -> Indore -> Pune -> Pune,Road -> Air -> Road,753.5,2,14.2,1902.71,210.79,2113.51,85.7,3082.8,16.4,True
+RT00304,Jaipur,Kolkata,Jaipur -> Kolkata,Road,1714.9,0,48.7,926.7,19.85,946.55,89.2,2308.3,10.7,True
+RT00305,Jaipur,Kolkata,Jaipur -> Kolkata,Rail,1646.1,0,65.2,483.19,61.22,544.41,72.9,518.5,1936.8,True
+RT00306,Jaipur,Kolkata,Jaipur -> Kolkata,Air,1468.2,0,2.3,2554.43,70.72,2625.15,90.4,7749.2,26.4,True
+RT00307,Delhi,Kochi,Delhi -> Kochi,Road,2860.2,0,82.6,1777.57,15.16,1792.73,80.6,3489.4,16.8,True
+RT00308,Delhi,Kochi,Delhi -> Delhi -> Bengaluru -> Kochi,Road -> Rail -> Road,2618.3,2,101.3,1204.71,161.02,1365.73,70.1,1127.1,14.7,False
+RT00309,Delhi,Kochi,Delhi -> Kochi,Air,2265.4,0,3.6,4025.07,117.26,4142.33,88.7,12650.0,26.5,True
+RT00310,Chennai,Ludhiana,Chennai -> Ludhiana,Road,2791.0,0,83.4,1767.59,22.05,1789.64,88.8,2587.3,14.3,True
+RT00311,Chennai,Ludhiana,Chennai -> Ludhiana,Rail,2478.6,0,95.5,707.35,39.53,746.88,87.7,850.2,1391.9,True
+RT00312,Chennai,Ludhiana,Chennai -> Chennai -> Delhi -> Ludhiana,Road -> Air -> Road,2238.4,2,18.9,3960.16,202.86,4163.02,76.6,10672.7,14.6,True
+RT00313,Hyderabad,Surat,Hyderabad -> Surat,Road,960.9,0,34.5,628.67,13.85,642.52,85.5,949.4,15.8,True
+RT00314,Hyderabad,Surat,Hyderabad -> Hyderabad -> Ahmedabad -> Surat,Road -> Rail -> Road,1362.4,2,51.1,584.34,178.37,762.71,68.4,707.4,20.6,True
+RT00315,Hyderabad,Surat,Hyderabad -> Hyderabad -> Ahmedabad -> Surat,Road -> Air -> Road,1221.3,2,15.6,2285.1,226.22,2511.32,70.0,7407.4,10.7,True
+RT00316,Mumbai,Patna,Mumbai -> Patna,Road,1979.2,0,49.3,1248.76,12.96,1261.72,79.7,2406.7,18.7,True
+RT00317,Mumbai,Patna,Mumbai -> Patna,Rail,1780.5,0,72.5,538.53,50.62,589.15,81.8,393.5,849.6,True
+RT00318,Kochi,Mumbai,Kochi -> Mumbai,Road,1363.9,0,41.1,803.27,13.4,816.67,84.2,1618.9,11.9,True
+RT00319,Kochi,Mumbai,Kochi -> Bengaluru -> Mumbai -> Mumbai,Road -> Rail -> Road,1509.2,2,56.0,758.26,171.38,929.64,68.1,727.5,14.7,True
+RT00320,Kochi,Mumbai,Kochi -> Mumbai,Air,1200.8,0,2.1,3017.85,61.61,3079.46,97.7,8698.6,19.4,True
+RT00321,Delhi,Pune,Delhi -> Pune,Road,1601.0,0,41.4,1005.68,23.39,1029.07,81.9,2196.6,19.4,True
+RT00322,Delhi,Pune,Delhi -> Delhi -> Mumbai -> Pune,Road -> Rail -> Road,1535.9,2,76.4,583.44,171.73,755.17,62.2,557.1,21.8,True
+RT00323,Delhi,Pune,Delhi -> Pune,Air,1244.9,0,2.0,3263.63,65.68,3329.31,93.5,8836.3,24.0,True
+RT00324,Bhopal,Visakhapatnam,Bhopal -> Visakhapatnam,Road,1167.8,0,34.3,571.22,19.44,590.66,94.9,1599.9,14.8,True
+RT00325,Indore,Kolkata,Indore -> Kolkata,Road,1668.8,0,50.3,949.25,16.32,965.57,95.7,1925.8,19.9,True
+RT00326,Indore,Kolkata,Indore -> Kolkata,Rail,1604.0,0,67.0,590.97,34.3,625.27,81.6,455.5,1481.4,True
+RT00327,Indore,Kolkata,Indore -> Kolkata,Air,1408.5,0,2.5,3465.4,62.65,3528.05,87.0,9267.9,25.6,True
+RT00328,Ahmedabad,Bengaluru,Ahmedabad -> Bengaluru,Road,1578.0,0,40.8,986.82,18.92,1005.74,87.4,2019.8,9.1,True
+RT00329,Ahmedabad,Bengaluru,Ahmedabad -> Bengaluru,Rail,1523.6,0,52.9,610.61,45.37,655.98,76.1,508.9,2395.6,True
+RT00330,Ahmedabad,Bengaluru,Ahmedabad -> Bengaluru,Air,1376.0,0,2.2,2817.46,85.72,2903.18,93.2,6458.9,23.1,True
+RT00331,Coimbatore,Surat,Coimbatore -> Surat,Road,1576.7,0,44.8,955.37,20.61,975.98,95.0,1633.5,10.1,True
+RT00332,Coimbatore,Surat,Coimbatore -> Bengaluru -> Ahmedabad -> Surat,Road -> Rail -> Road,2111.9,2,77.3,1025.54,180.43,1205.97,49.6,1221.2,17.1,True
+RT00333,Coimbatore,Surat,Coimbatore -> Coimbatore -> Ahmedabad -> Surat,Road -> Air -> Road,1725.7,2,16.2,4259.06,214.25,4473.31,69.3,9441.9,20.6,True
+RT00334,Indore,Mumbai,Indore -> Mumbai,Road,662.7,0,19.6,333.36,23.73,357.09,86.6,815.1,18.7,True
+RT00335,Indore,Mumbai,Indore -> Mumbai,Rail,644.8,0,19.2,318.95,48.6,367.55,88.9,210.2,538.1,True
+RT00336,Indore,Mumbai,Indore -> Mumbai,Air,563.2,0,1.0,1396.66,68.36,1465.02,95.5,3396.1,38.3,True
+RT00337,Delhi,Mumbai,Delhi -> Mumbai,Road,1488.6,0,45.7,894.92,21.89,916.81,80.9,1372.5,12.4,True
+RT00338,Delhi,Mumbai,Delhi -> Mumbai,Rail,1375.1,0,65.7,464.08,43.63,507.71,74.2,390.5,1488.0,True
+RT00339,Delhi,Mumbai,Delhi -> Mumbai,Air,1254.1,0,1.9,3510.5,141.33,3651.83,98.8,7529.6,34.2,True
+RT00340,Guwahati,Nagpur,Guwahati -> Nagpur,Road,1905.5,0,50.0,1260.18,17.82,1278.0,91.0,1730.2,16.0,True
+RT00341,Guwahati,Nagpur,Guwahati -> Nagpur,Rail,1778.3,0,53.7,739.0,31.68,770.68,91.5,412.6,1737.5,True
+RT00342,Guwahati,Nagpur,Guwahati -> Guwahati -> Indore -> Nagpur,Road -> Air -> Road,2257.0,2,24.2,3539.4,240.74,3780.14,71.0,10004.6,14.9,True
+RT00343,Coimbatore,Patna,Coimbatore -> Patna,Road,2396.3,0,62.5,1392.25,19.38,1411.63,84.4,2317.2,18.7,True
+RT00344,Coimbatore,Patna,Coimbatore -> Bengaluru -> Patna -> Patna,Road -> Rail -> Road,2307.8,2,87.5,937.36,150.69,1088.05,65.8,851.8,17.1,True
+RT00345,Kolkata,Patna,Kolkata -> Patna,Road,616.7,0,18.9,398.95,17.42,416.37,82.5,784.4,12.1,True
+RT00346,Kolkata,Patna,Kolkata -> Patna,Rail,583.2,0,22.4,223.7,53.73,277.43,80.0,172.0,2257.6,True
+RT00347,Indore,Ludhiana,Indore -> Ludhiana,Road,1237.7,0,36.0,743.58,17.96,761.54,86.5,1247.6,16.9,True
+RT00348,Indore,Ludhiana,Indore -> Ludhiana,Rail,1097.6,0,51.1,416.85,33.69,450.54,88.0,247.0,1470.5,True
+RT00349,Indore,Ludhiana,Indore -> Indore -> Delhi -> Ludhiana,Road -> Air -> Road,1097.3,2,17.6,1718.35,225.15,1943.5,75.5,4345.6,20.4,True
+RT00350,Chennai,Mumbai,Chennai -> Mumbai,Road,1347.4,0,53.6,678.8,23.2,702.0,91.4,1577.8,19.2,True
+RT00351,Chennai,Mumbai,Chennai -> Mumbai,Rail,1249.8,0,40.5,384.93,59.59,444.52,77.2,344.9,1157.0,True
+RT00352,Chennai,Mumbai,Chennai -> Mumbai,Air,1061.4,0,2.0,2654.28,76.35,2730.63,94.9,7789.6,23.9,True
+RT00353,Nagpur,Visakhapatnam,Nagpur -> Visakhapatnam,Road,753.6,0,17.9,467.33,10.1,477.43,94.7,732.5,10.5,True
+RT00354,Kolkata,Nagpur,Kolkata -> Nagpur,Road,1272.5,0,44.3,787.59,14.39,801.98,93.7,1616.1,18.8,True
+RT00355,Kolkata,Nagpur,Kolkata -> Nagpur,Rail,1184.4,0,45.2,502.03,63.84,565.87,85.1,344.7,1045.0,True
+RT00356,Kolkata,Nagpur,Kolkata -> Kolkata -> Indore -> Nagpur,Road -> Air -> Road,1925.1,2,24.0,3842.04,181.13,4023.17,71.1,9743.8,23.7,True
+RT00357,Hyderabad,Patna,Hyderabad -> Patna,Road,1457.9,0,37.7,732.44,13.7,746.14,92.4,1660.5,23.6,True
+RT00358,Hyderabad,Patna,Hyderabad -> Patna,Rail,1374.5,0,53.2,522.89,52.11,575.0,92.5,389.0,582.9,True
+RT00359,Chennai,Kochi,Chennai -> Kochi,Road,757.0,0,21.7,400.01,24.67,424.68,83.6,684.3,15.4,True
+RT00360,Chennai,Kochi,Chennai -> Chennai -> Bengaluru -> Kochi,Road -> Rail -> Road,856.0,2,37.3,567.49,188.87,756.36,85.2,558.3,14.7,True
+RT00361,Chennai,Kochi,Chennai -> Chennai Port -> Kochi Port -> Kochi,Road -> Sea -> Road,795.6,2,40.6,921.42,406.21,1327.63,76.5,123.3,25.0,True
+RT00362,Chennai,Kochi,Chennai -> Kochi,Air,601.2,0,1.0,1258.97,120.56,1379.53,96.3,3548.3,8.0,True
+RT00363,Delhi,Nagpur,Delhi -> Nagpur,Road,1118.6,0,34.7,554.83,21.58,576.41,83.8,1279.7,11.2,True
+RT00364,Delhi,Nagpur,Delhi -> Nagpur,Rail,1006.6,0,33.7,470.95,53.77,524.72,86.8,309.0,1388.3,True
+RT00365,Delhi,Nagpur,Delhi -> Delhi -> Indore -> Nagpur,Road -> Air -> Road,1243.0,2,23.0,1889.46,225.87,2115.33,76.6,4362.1,20.4,True
+RT00366,Hyderabad,Indore,Hyderabad -> Indore,Road,828.7,0,26.2,499.94,11.46,511.4,92.2,769.9,23.2,True
+RT00367,Hyderabad,Indore,Hyderabad -> Indore,Rail,766.1,0,29.3,436.26,51.86,488.12,93.9,200.0,1250.6,True
+RT00368,Hyderabad,Indore,Hyderabad -> Indore,Air,672.5,0,1.2,1529.71,135.12,1664.83,89.2,4137.9,39.2,True
+RT00369,Bengaluru,Patna,Bengaluru -> Patna,Road,2083.0,0,71.2,1126.51,19.54,1146.05,91.6,2537.1,20.2,True
+RT00370,Bengaluru,Patna,Bengaluru -> Patna,Rail,1998.0,0,70.6,734.39,33.26,767.65,83.7,529.5,885.1,True
+RT00371,Bengaluru,Kochi,Bengaluru -> Kochi,Road,503.3,0,17.1,316.27,21.18,337.45,95.7,482.2,14.7,True
+RT00372,Bengaluru,Kochi,Bengaluru -> Chennai Port -> Kochi Port -> Kochi,Road -> Sea -> Road,1161.9,2,50.0,1142.75,415.39,1558.14,65.6,467.6,16.2,True
+RT00373,Bengaluru,Kochi,Bengaluru -> Kochi,Air,407.5,0,0.7,1186.55,88.38,1274.93,98.2,2257.6,36.8,True
+RT00374,Bhopal,Chennai,Bhopal -> Chennai,Road,1587.4,0,45.8,848.23,13.88,862.11,95.3,2135.1,19.7,True
+RT00375,Bhopal,Chennai,Bhopal -> Indore -> Chennai -> Chennai,Road -> Rail -> Road,1671.3,2,62.4,807.07,158.53,965.6,81.5,557.0,16.4,True
+RT00376,Bhopal,Chennai,Bhopal -> Indore -> Chennai -> Chennai,Road -> Air -> Road,1492.9,2,15.1,2298.32,238.18,2536.5,77.3,6978.1,16.4,True
+RT00377,Delhi,Indore,Delhi -> Indore,Road,906.3,0,27.5,504.94,23.29,528.23,93.0,1264.3,9.5,True
+RT00378,Delhi,Indore,Delhi -> Indore,Rail,854.8,0,42.5,439.25,47.18,486.43,87.3,204.3,1835.3,True
+RT00379,Delhi,Indore,Delhi -> Indore,Air,726.4,0,1.5,1512.82,107.39,1620.21,93.8,3886.2,20.4,True
+RT00380,Guwahati,Hyderabad,Guwahati -> Hyderabad,Road,2140.4,0,54.5,1369.29,17.63,1386.92,95.4,2249.6,10.1,True
+RT00381,Guwahati,Hyderabad,Guwahati -> Hyderabad,Rail,2018.8,0,62.7,812.58,47.41,859.99,81.2,430.0,786.3,True
+RT00382,Guwahati,Hyderabad,Guwahati -> Hyderabad,Air,1818.4,0,3.0,3276.48,126.24,3402.72,88.4,10155.8,13.2,True
+RT00383,Mumbai,Nagpur,Mumbai -> Nagpur,Road,896.2,0,28.0,592.44,24.0,616.44,80.5,1172.2,22.0,True
+RT00384,Mumbai,Nagpur,Mumbai -> Nagpur,Rail,857.5,0,30.6,403.54,61.64,465.18,87.8,188.6,1252.1,True
+RT00385,Mumbai,Nagpur,Mumbai -> Mumbai -> Indore -> Nagpur,Road -> Air -> Road,1079.8,2,22.5,1773.3,186.84,1960.14,78.0,3872.0,23.7,True
+RT00386,Delhi,Guwahati,Delhi -> Guwahati,Road,1975.9,0,73.8,977.22,10.53,987.75,82.9,2379.0,10.4,True
+RT00387,Delhi,Guwahati,Delhi -> Guwahati,Rail,1712.7,0,78.5,486.27,39.87,526.14,90.8,570.3,2254.3,True
+RT00388,Delhi,Guwahati,Delhi -> Guwahati,Air,1509.7,0,2.1,3269.98,89.78,3359.76,89.2,10874.4,25.3,True
+RT00389,Bhopal,Guwahati,Bhopal -> Guwahati,Road,1995.1,0,65.4,1285.85,20.24,1306.09,94.1,2775.2,19.3,True
+RT00390,Bhopal,Guwahati,Bhopal -> Indore -> Guwahati -> Guwahati,Road -> Rail -> Road,2281.0,2,82.4,870.12,194.04,1064.16,73.8,705.6,16.4,True
+RT00391,Bhopal,Guwahati,Bhopal -> Indore -> Guwahati -> Guwahati,Road -> Air -> Road,1955.9,2,16.2,3352.95,248.51,3601.46,78.8,9790.2,14.9,True
+RT00392,Indore,Pune,Indore -> Pune,Road,703.3,0,17.0,481.24,17.6,498.84,83.7,656.2,9.6,True
+RT00393,Indore,Pune,Indore -> Indore -> Mumbai -> Pune,Road -> Rail -> Road,805.6,2,29.9,438.31,176.7,615.01,74.5,376.8,21.8,True
+RT00394,Indore,Pune,Indore -> Pune,Air,538.0,0,0.7,1712.53,84.54,1797.07,94.5,2821.3,18.0,True
+RT00395,Ahmedabad,Bhopal,Ahmedabad -> Bhopal,Road,672.0,0,18.3,414.46,19.94,434.4,82.1,760.7,16.2,True
+RT00396,Ahmedabad,Bhopal,Ahmedabad -> Ahmedabad -> Indore -> Bhopal,Road -> Rail -> Road,622.8,2,32.1,480.61,175.83,656.44,77.8,401.6,16.4,True
+RT00397,Ahmedabad,Bhopal,Ahmedabad -> Ahmedabad -> Indore -> Bhopal,Road -> Air -> Road,585.7,2,14.1,1331.69,271.87,1603.56,83.4,1978.5,16.4,True
+RT00398,Delhi,Ludhiana,Delhi -> Ludhiana,Road,370.4,0,9.8,197.53,12.76,210.29,83.0,459.3,23.8,True
+RT00399,Delhi,Ludhiana,Delhi -> Ludhiana,Rail,330.1,0,15.9,231.89,40.58,272.47,76.8,96.7,1341.6,True
+RT00400,Delhi,Visakhapatnam,Delhi -> Visakhapatnam,Road,1831.8,0,53.3,1091.24,19.12,1110.36,91.0,2035.1,9.3,True
+RT00401,Coimbatore,Pune,Coimbatore -> Pune,Road,1158.7,0,34.4,571.7,17.55,589.25,86.7,1431.0,22.8,True
+RT00402,Coimbatore,Pune,Coimbatore -> Bengaluru -> Mumbai -> Pune,Road -> Rail -> Road,1475.0,2,53.6,740.31,180.73,921.04,51.4,734.2,17.1,True
+RT00403,Coimbatore,Pune,Coimbatore -> Pune,Air,956.8,0,1.5,1767.15,81.79,1848.94,90.7,5668.1,17.6,True
+RT00404,Hyderabad,Kochi,Hyderabad -> Kochi,Road,1183.6,0,47.8,698.79,17.46,716.25,84.6,1421.5,12.0,True
+RT00405,Hyderabad,Kochi,Hyderabad -> Hyderabad -> Bengaluru -> Kochi,Road -> Rail -> Road,1100.5,2,43.9,609.47,163.86,773.33,73.4,685.1,14.7,True
+RT00406,Hyderabad,Kochi,Hyderabad -> Kochi,Air,922.1,0,1.6,2125.09,81.07,2206.16,98.0,5052.2,16.5,True
+RT00407,Kolkata,Mumbai,Kolkata -> Mumbai,Road,2256.0,0,59.1,1454.26,23.56,1477.82,94.7,2233.4,12.1,True
+RT00408,Kolkata,Mumbai,Kolkata -> Mumbai,Rail,1938.0,0,95.6,650.11,61.2,711.31,86.5,649.2,2193.5,True
+RT00409,Kolkata,Mumbai,Kolkata -> Mumbai,Air,1751.2,0,2.9,4517.48,116.12,4633.6,88.7,12324.9,18.9,True
+RT00410,Lucknow,Pune,Lucknow -> Pune,Road,1520.5,0,43.3,885.98,18.04,904.02,81.2,1455.1,23.0,True
+RT00411,Lucknow,Pune,Lucknow -> Lucknow -> Mumbai -> Pune,Road -> Rail -> Road,1553.9,2,71.9,746.63,188.02,934.65,78.5,606.8,21.8,True
+RT00412,Lucknow,Pune,Lucknow -> Pune,Air,1230.4,0,1.9,3587.97,61.43,3649.4,96.6,8240.0,8.8,True
+RT00413,Ahmedabad,Mumbai,Ahmedabad -> Mumbai,Road,586.0,0,17.2,318.89,13.59,332.48,81.9,615.3,24.5,True
+RT00414,Ahmedabad,Mumbai,Ahmedabad -> Mumbai,Rail,548.3,0,19.0,384.36,67.09,451.45,86.3,160.7,1100.9,True
+RT00415,Ahmedabad,Mumbai,Ahmedabad -> Mumbai,Air,474.9,0,0.8,1361.2,143.96,1505.16,90.4,3436.9,31.9,True
+RT00416,Chennai,Nagpur,Chennai -> Nagpur,Road,1169.2,0,36.9,762.35,17.78,780.13,80.3,1527.0,10.1,True
+RT00417,Chennai,Nagpur,Chennai -> Nagpur,Rail,1076.8,0,47.5,434.75,43.36,478.11,90.5,305.8,1576.6,True
+RT00418,Chennai,Nagpur,Chennai -> Chennai -> Indore -> Nagpur,Road -> Air -> Road,1794.0,2,23.1,2484.78,230.41,2715.19,69.6,7192.5,23.7,True
+RT00419,Ahmedabad,Hyderabad,Ahmedabad -> Hyderabad,Road,1177.4,0,37.8,695.51,13.7,709.21,85.1,1576.5,23.3,True
+RT00420,Ahmedabad,Hyderabad,Ahmedabad -> Hyderabad,Rail,1082.9,0,37.0,356.37,50.74,407.11,87.6,317.3,2036.9,True
+RT00421,Ahmedabad,Hyderabad,Ahmedabad -> Hyderabad,Air,941.8,0,1.5,2057.13,98.59,2155.72,89.7,7017.4,10.7,True
+RT00422,Bhopal,Kochi,Bhopal -> Kochi,Road,2034.7,0,58.9,1117.18,18.32,1135.5,94.6,2614.6,20.8,True
+RT00423,Bhopal,Kochi,Bhopal -> Indore -> Bengaluru -> Kochi,Road -> Rail -> Road,2035.2,2,90.4,1081.03,178.5,1259.53,83.4,1033.3,14.7,True
+RT00424,Bhopal,Kochi,Bhopal -> Indore -> Kochi -> Kochi,Road -> Air -> Road,1676.1,2,15.6,3566.44,217.59,3784.03,84.3,9644.4,16.4,True
+RT00425,Bhopal,Patna,Bhopal -> Patna,Road,1049.0,0,28.8,562.48,10.99,573.47,79.5,1393.1,22.6,True
+RT00426,Bhopal,Patna,Bhopal -> Indore -> Patna -> Patna,Road -> Rail -> Road,1411.3,2,69.3,615.0,169.6,784.6,80.4,602.3,16.4,True
+RT00427,Bengaluru,Indore,Bengaluru -> Indore,Road,1483.4,0,49.6,972.9,21.04,993.94,88.8,1443.3,16.0,True
+RT00428,Bengaluru,Indore,Bengaluru -> Indore,Rail,1316.9,0,60.1,582.58,36.07,618.65,93.2,289.7,533.1,True
+RT00429,Bengaluru,Indore,Bengaluru -> Indore,Air,1140.0,0,1.7,2032.48,112.13,2144.61,97.3,6820.6,21.3,True
+RT00430,Ludhiana,Visakhapatnam,Ludhiana -> Visakhapatnam,Road,2217.7,0,85.6,1378.5,13.64,1392.14,95.3,3098.1,11.4,True
+RT00431,Delhi,Jaipur,Delhi -> Jaipur,Road,320.9,0,9.6,207.43,14.75,222.18,91.2,360.4,9.9,True
+RT00432,Delhi,Jaipur,Delhi -> Jaipur,Rail,286.6,0,12.1,246.02,56.56,302.58,90.6,65.1,1252.6,True
+RT00433,Delhi,Jaipur,Delhi -> Jaipur,Air,250.7,0,0.4,1019.92,75.24,1095.16,93.7,1373.8,38.9,True
+RT00434,Jaipur,Ludhiana,Jaipur -> Ludhiana,Road,599.1,0,14.8,324.72,16.95,341.67,91.1,620.1,24.5,True
+RT00435,Jaipur,Ludhiana,Jaipur -> Ludhiana,Rail,564.1,0,19.8,238.05,60.1,298.15,77.4,148.4,912.0,True
+RT00436,Jaipur,Ludhiana,Jaipur -> Jaipur -> Delhi -> Ludhiana,Road -> Air -> Road,621.6,2,16.5,1225.44,193.0,1418.44,75.4,1833.2,23.8,True
+RT00437,Chennai,Patna,Chennai -> Patna,Road,1890.4,0,54.7,924.14,13.95,938.09,85.6,1896.1,18.3,True
+RT00438,Chennai,Patna,Chennai -> Patna,Rail,1778.8,0,56.1,708.46,45.87,754.33,83.7,416.2,721.6,True
+RT00439,Ahmedabad,Nagpur,Ahmedabad -> Nagpur,Road,932.6,0,30.1,532.81,23.68,556.49,94.5,843.1,11.0,True
+RT00440,Ahmedabad,Nagpur,Ahmedabad -> Nagpur,Rail,858.2,0,41.1,413.75,31.86,445.62,82.5,239.4,516.5,True
+RT00441,Ahmedabad,Nagpur,Ahmedabad -> Ahmedabad -> Indore -> Nagpur,Road -> Air -> Road,886.8,2,22.1,1518.14,264.1,1782.24,75.1,2192.9,23.7,True
+RT00442,Indore,Nagpur,Indore -> Nagpur,Road,516.1,0,15.2,368.64,13.48,382.12,84.2,475.8,23.7,True
+RT00443,Indore,Nagpur,Indore -> Nagpur,Rail,447.9,0,20.5,331.24,62.91,394.15,75.7,92.3,2031.2,True
+RT00444,Bengaluru,Mumbai,Bengaluru -> Mumbai,Road,1069.5,0,31.7,722.16,17.71,739.87,81.5,1069.5,9.2,True
+RT00445,Bengaluru,Mumbai,Bengaluru -> Mumbai,Rail,1005.4,0,32.6,433.99,45.2,479.19,73.4,245.3,2468.7,True
+RT00446,Bengaluru,Mumbai,Bengaluru -> Mumbai,Air,891.1,0,1.4,2222.89,63.47,2286.36,90.3,5381.4,36.1,True
+RT00447,Chennai,Kolkata,Chennai -> Kolkata,Road,1765.0,0,60.2,1011.44,13.04,1024.48,94.7,1768.5,9.5,True
+RT00448,Chennai,Kolkata,Chennai -> Kolkata,Rail,1714.9,0,71.1,571.55,41.09,612.64,90.2,368.7,823.2,True
+RT00449,Chennai,Kolkata,Chennai -> Chennai Port -> Kolkata Port (Haldia) -> Kolkata,Road -> Sea -> Road,1827.7,2,90.0,690.78,306.79,997.57,78.6,212.0,25.0,True
+RT00450,Chennai,Kolkata,Chennai -> Kolkata,Air,1445.2,0,2.6,2835.4,90.98,2926.38,90.0,10086.1,24.8,True
+RT00451,Guwahati,Patna,Guwahati -> Patna,Road,889.3,0,27.0,451.22,21.17,472.39,79.5,1072.5,10.2,True
+RT00452,Guwahati,Patna,Guwahati -> Patna,Rail,837.3,0,31.6,371.46,53.0,424.46,88.3,249.5,965.3,True
+RT00453,Chennai,Guwahati,Chennai -> Guwahati,Road,2551.0,0,95.7,1307.3,23.17,1330.47,87.4,2456.6,12.2,True
+RT00454,Chennai,Guwahati,Chennai -> Guwahati,Rail,2317.4,0,89.4,938.8,68.69,1007.49,84.9,491.3,801.0,True
+RT00455,Chennai,Guwahati,Chennai -> Guwahati,Air,2020.7,0,3.0,4607.15,106.51,4713.66,97.4,9477.1,21.7,True
+RT00456,Bengaluru,Chennai,Bengaluru -> Chennai,Road,366.8,0,9.7,229.33,14.18,243.51,83.2,344.4,16.2,True
+RT00457,Bengaluru,Chennai,Bengaluru -> Chennai,Rail,352.2,0,13.9,243.23,62.69,305.92,91.8,76.1,1602.8,True
+RT00458,Bengaluru,Chennai,Bengaluru -> Chennai,Air,306.8,0,0.5,977.87,97.04,1074.91,89.8,1476.6,27.7,True
+RT00459,Kochi,Lucknow,Kochi -> Lucknow,Road,2459.9,0,63.0,1221.27,16.49,1237.76,78.9,3067.5,17.6,True
+RT00460,Kochi,Lucknow,Kochi -> Bengaluru -> Lucknow -> Lucknow,Road -> Rail -> Road,2349.8,2,86.0,1009.04,170.99,1180.03,68.6,1095.1,14.7,True
+RT00461,Kochi,Lucknow,Kochi -> Lucknow,Air,2144.8,0,3.1,3402.62,88.68,3491.3,97.7,11279.5,37.1,True
+RT00462,Bhopal,Kolkata,Bhopal -> Kolkata,Road,1431.3,0,49.6,816.97,18.04,835.01,88.0,1316.8,11.3,True
+RT00463,Bhopal,Kolkata,Bhopal -> Indore -> Kolkata -> Kolkata,Road -> Rail -> Road,1819.5,2,80.5,781.15,160.55,941.7,74.0,717.0,16.4,True
+RT00464,Bhopal,Kolkata,Bhopal -> Indore -> Kolkata -> Kolkata,Road -> Air -> Road,1624.0,2,16.0,3655.59,188.9,3844.49,78.9,9529.4,16.4,True
+RT00465,Coimbatore,Mumbai,Coimbatore -> Mumbai,Road,1297.2,0,46.5,758.41,17.73,776.14,88.5,1737.0,20.9,True
+RT00466,Coimbatore,Mumbai,Coimbatore -> Bengaluru -> Mumbai -> Mumbai,Road -> Rail -> Road,1315.2,2,49.5,636.95,162.63,799.58,57.7,567.7,17.1,True
+RT00467,Coimbatore,Mumbai,Coimbatore -> Mumbai,Air,1043.3,0,1.6,2725.59,71.31,2796.9,92.4,5317.7,8.7,True
+RT00468,Hyderabad,Visakhapatnam,Hyderabad -> Visakhapatnam,Road,676.1,0,22.1,391.84,19.42,411.26,84.5,794.4,12.1,True
+RT00469,Delhi,Lucknow,Delhi -> Lucknow,Road,556.9,0,14.1,355.35,16.26,371.61,94.1,515.1,23.8,True
+RT00470,Delhi,Lucknow,Delhi -> Lucknow,Rail,513.7,0,18.7,334.43,55.25,389.68,87.7,151.0,725.6,True
+RT00471,Delhi,Lucknow,Delhi -> Lucknow,Air,479.1,0,0.9,1491.32,133.21,1624.53,92.7,2354.8,39.3,True
+RT00472,Coimbatore,Hyderabad,Coimbatore -> Hyderabad,Road,986.8,0,24.4,576.8,15.58,592.38,89.7,1272.0,22.9,True
+RT00473,Coimbatore,Hyderabad,Coimbatore -> Bengaluru -> Hyderabad -> Hyderabad,Road -> Rail -> Road,906.5,2,37.4,488.17,155.11,643.28,62.1,525.2,17.1,True
+RT00474,Coimbatore,Hyderabad,Coimbatore -> Hyderabad,Air,760.0,0,1.2,1691.97,105.94,1797.91,93.0,3768.1,10.6,True
+RT00475,Kochi,Visakhapatnam,Kochi -> Visakhapatnam,Road,1498.2,0,42.0,832.2,17.05,849.25,94.2,1737.9,17.9,True
+RT00476,Kochi,Visakhapatnam,Kochi -> Kochi Port -> Visakhapatnam Port -> Visakhapatnam,Road -> Sea -> Road,1603.3,2,78.5,535.72,364.13,899.85,83.5,197.2,25.0,True
+RT00477,Kochi,Patna,Kochi -> Patna,Road,2563.0,0,77.5,1659.62,13.75,1673.37,92.0,2921.8,15.2,True
+RT00478,Kochi,Patna,Kochi -> Bengaluru -> Patna -> Patna,Road -> Rail -> Road,2501.8,2,94.0,1058.66,159.44,1218.1,77.7,1011.7,14.7,True
+RT00479,Lucknow,Surat,Lucknow -> Surat,Road,1361.2,0,40.7,711.2,15.45,726.65,86.1,1233.2,9.6,True
+RT00480,Lucknow,Surat,Lucknow -> Lucknow -> Ahmedabad -> Surat,Road -> Rail -> Road,1388.7,2,47.6,719.16,170.46,889.62,60.6,709.5,20.6,True
+RT00481,Lucknow,Surat,Lucknow -> Lucknow -> Ahmedabad -> Surat,Road -> Air -> Road,1243.8,2,15.7,3138.03,276.11,3414.14,71.9,6023.5,20.6,True
+RT00482,Bengaluru,Nagpur,Bengaluru -> Nagpur,Road,1175.0,0,33.8,582.23,12.61,594.84,84.0,1333.6,9.7,True
+RT00483,Bengaluru,Nagpur,Bengaluru -> Nagpur,Rail,1123.0,0,43.3,380.24,47.57,427.81,72.7,386.3,1448.3,True
+RT00484,Bengaluru,Nagpur,Bengaluru -> Bengaluru -> Indore -> Nagpur,Road -> Air -> Road,1656.6,2,23.2,2409.12,230.61,2639.73,79.5,7296.5,21.3,True
+RT00485,Patna,Pune,Patna -> Pune,Road,1860.9,0,59.1,890.4,19.47,909.87,82.0,2491.7,18.5,True
+RT00486,Patna,Pune,Patna -> Patna -> Mumbai -> Pune,Road -> Rail -> Road,1941.3,2,83.2,657.89,178.72,836.61,68.6,560.1,21.8,True
+RT00487,Bhopal,Coimbatore,Bhopal -> Coimbatore,Road,1809.3,0,52.8,982.31,22.79,1005.1,86.9,2287.0,12.7,True
+RT00488,Bhopal,Coimbatore,Bhopal -> Indore -> Bengaluru -> Coimbatore,Road -> Rail -> Road,1841.2,2,83.9,959.72,169.75,1129.47,70.6,873.4,16.4,True
+RT00489,Bhopal,Coimbatore,Bhopal -> Indore -> Coimbatore -> Coimbatore,Road -> Air -> Road,1596.8,2,16.1,4117.31,229.46,4346.77,78.1,6998.1,6.0,True
+RT00490,Nagpur,Pune,Nagpur -> Pune,Road,848.8,0,27.6,574.69,12.65,587.34,81.4,856.4,21.0,True
+RT00491,Nagpur,Pune,Nagpur -> Nagpur -> Mumbai -> Pune,Road -> Rail -> Road,1018.3,2,41.3,522.9,189.74,712.64,73.6,355.3,21.8,True
+RT00492,Nagpur,Pune,Nagpur -> Indore -> Pune -> Pune,Road -> Air -> Road,1054.6,2,22.2,2089.17,203.02,2292.19,77.2,3297.2,18.0,True
+RT00493,Jaipur,Kochi,Jaipur -> Kochi,Road,2586.2,0,72.6,1392.75,22.96,1415.71,80.5,3134.5,9.0,True
+RT00494,Jaipur,Kochi,Jaipur -> Jaipur -> Bengaluru -> Kochi,Road -> Rail -> Road,2328.8,2,105.4,1040.37,180.73,1221.1,87.3,1106.4,14.7,False
+RT00495,Jaipur,Kochi,Jaipur -> Kochi,Air,1983.9,0,3.3,5458.99,105.23,5564.22,90.7,10161.5,14.8,True
+RT00496,Jaipur,Visakhapatnam,Jaipur -> Visakhapatnam,Road,1745.1,0,58.6,1137.38,22.94,1160.32,82.7,1863.8,16.4,True
+RT00497,Guwahati,Lucknow,Guwahati -> Lucknow,Road,1439.3,0,38.4,788.25,17.82,806.07,94.4,1544.4,9.6,True
+RT00498,Guwahati,Lucknow,Guwahati -> Lucknow,Rail,1273.6,0,42.5,501.33,53.23,554.56,76.4,261.1,2161.6,True
+RT00499,Guwahati,Lucknow,Guwahati -> Lucknow,Air,1182.9,0,1.7,2154.6,96.81,2251.41,90.0,5866.0,20.0,True
+RT00500,Bengaluru,Lucknow,Bengaluru -> Lucknow,Road,2004.4,0,63.0,1122.65,18.8,1141.45,91.6,2208.8,14.3,True
+RT00501,Bengaluru,Lucknow,Bengaluru -> Lucknow,Rail,1846.0,0,62.6,684.78,44.81,729.59,73.9,612.9,1156.8,True
+RT00502,Bengaluru,Lucknow,Bengaluru -> Lucknow,Air,1682.4,0,2.9,3455.7,97.43,3553.13,97.1,9702.4,12.1,True
+RT00503,Indore,Surat,Indore -> Surat,Road,490.3,0,16.1,278.08,23.51,301.59,84.7,603.6,15.7,True
+RT00504,Indore,Surat,Indore -> Indore -> Ahmedabad -> Surat,Road -> Rail -> Road,686.8,2,32.7,518.39,177.21,695.6,67.0,530.2,20.6,True
+RT00505,Indore,Surat,Indore -> Indore -> Ahmedabad -> Surat,Road -> Air -> Road,649.7,2,14.7,1369.47,273.25,1642.72,71.8,2107.1,20.6,True
+RT00506,Lucknow,Visakhapatnam,Lucknow -> Visakhapatnam,Road,1322.4,0,38.2,777.59,13.51,791.1,78.1,1631.8,22.6,True
+RT00507,Lucknow,Patna,Lucknow -> Patna,Road,593.1,0,16.2,346.21,23.15,369.36,93.2,547.4,9.4,True
+RT00508,Lucknow,Patna,Lucknow -> Patna,Rail,532.0,0,16.5,336.17,45.49,381.66,90.1,130.9,1091.3,True
+RT00509,Kochi,Pune,Kochi -> Pune,Road,1337.1,0,48.3,643.6,14.68,658.28,95.9,1815.8,9.9,True
+RT00510,Kochi,Pune,Kochi -> Bengaluru -> Mumbai -> Pune,Road -> Rail -> Road,1669.0,2,60.1,861.61,189.48,1051.09,60.7,894.0,14.7,True
+RT00511,Kochi,Pune,Kochi -> Pune,Air,1091.7,0,2.2,2534.52,147.22,2681.74,97.3,5601.5,18.2,True
+RT00512,Ludhiana,Patna,Ludhiana -> Patna,Road,1403.4,0,49.0,919.9,20.91,940.81,82.0,1759.9,18.5,True
+RT00513,Ludhiana,Patna,Ludhiana -> Patna,Rail,1340.1,0,45.8,519.15,37.3,556.45,88.4,394.0,2313.7,True
+RT00514,Hyderabad,Kolkata,Hyderabad -> Kolkata,Road,1583.4,0,52.8,1047.2,14.51,1061.71,81.8,1798.7,11.6,True
+RT00515,Hyderabad,Kolkata,Hyderabad -> Kolkata,Rail,1450.0,0,54.7,693.44,64.39,757.83,78.5,301.6,2063.2,True
+RT00516,Hyderabad,Kolkata,Hyderabad -> Kolkata,Air,1225.8,0,1.8,2152.95,139.56,2292.51,94.9,7356.0,27.9,True

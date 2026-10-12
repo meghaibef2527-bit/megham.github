@@ -1,0 +1,61 @@
+hub_id,hub_name,city,state,hub_type,latitude,longitude,handling_capacity_tonnes_per_day,storage_capacity_cbm,handling_cost_per_tonne,average_handling_time_hours
+H001,Mumbai Distribution Centre,Mumbai,Maharashtra,Distribution Centre,19.0851,72.8465,515,6512,5.54,2.6
+H002,Pune Warehouse,Pune,Maharashtra,Warehouse,18.5429,73.8849,1292,11576,3.42,1.3
+H003,Delhi Warehouse,Delhi,Delhi,Warehouse,28.6456,77.0634,801,5618,3.56,3.5
+H004,Bengaluru Distribution Centre,Bengaluru,Karnataka,Distribution Centre,12.9754,77.5851,642,8393,4.68,1.2
+H005,Chennai Warehouse,Chennai,Tamil Nadu,Warehouse,13.0822,80.2451,636,5303,6.86,3.8
+H006,Hyderabad Warehouse,Hyderabad,Telangana,Warehouse,17.4114,78.51,937,11424,5.38,1.3
+H007,Ahmedabad Distribution Centre,Ahmedabad,Gujarat,Distribution Centre,23.0245,72.6052,612,5063,6.73,3.5
+H008,Kolkata Warehouse,Kolkata,West Bengal,Warehouse,22.5866,88.3381,1242,3404,6.22,3.7
+H009,Jaipur Warehouse,Jaipur,Rajasthan,Warehouse,26.9235,75.7585,1134,6915,4.87,3.9
+H010,Surat Distribution Centre,Surat,Gujarat,Distribution Centre,21.1966,72.8296,1263,12927,6.14,3.4
+H011,Nagpur Warehouse,Nagpur,Maharashtra,Warehouse,21.1403,79.0678,775,11025,3.07,3.3
+H012,Kochi Warehouse,Kochi,Kerala,Warehouse,9.9679,76.2627,990,9737,3.44,2.9
+H013,Coimbatore Distribution Centre,Coimbatore,Tamil Nadu,Distribution Centre,11.004,76.9452,1100,11962,6.32,3.3
+H014,Lucknow Warehouse,Lucknow,Uttar Pradesh,Warehouse,26.8627,80.9572,1014,11041,6.19,1.4
+H015,Indore Warehouse,Indore,Madhya Pradesh,Warehouse,22.732,75.8706,392,7669,3.93,2.6
+H016,Visakhapatnam Distribution Centre,Visakhapatnam,Andhra Pradesh,Distribution Centre,17.751,83.2063,898,6501,5.12,2.5
+H017,Ludhiana Warehouse,Ludhiana,Punjab,Warehouse,30.8856,75.8329,345,9948,5.42,3.6
+H018,Bhopal Warehouse,Bhopal,Madhya Pradesh,Warehouse,23.2784,77.4465,843,8954,6.47,2.4
+H019,Guwahati Distribution Centre,Guwahati,Assam,Distribution Centre,26.1411,91.711,795,7049,5.41,2.2
+H020,Patna Warehouse,Patna,Bihar,Warehouse,25.5694,85.1571,458,3850,4.65,2.9
+H021,Mumbai Rail Freight Terminal,Mumbai,Maharashtra,Rail Terminal,19.1057,72.8994,2413,37403,6.87,5.6
+H022,Delhi Rail Freight Terminal,Delhi,Delhi,Rail Terminal,28.6775,77.1118,4350,22873,7.13,4.8
+H023,Bengaluru Rail Freight Terminal,Bengaluru,Karnataka,Rail Terminal,12.9763,77.6033,2682,43104,8.26,6.9
+H024,Chennai Rail Freight Terminal,Chennai,Tamil Nadu,Rail Terminal,13.1176,80.2796,5700,22229,9.34,6.5
+H025,Hyderabad Rail Freight Terminal,Hyderabad,Telangana,Rail Terminal,17.4122,78.4894,4324,18682,7.27,5.4
+H026,Ahmedabad Rail Freight Terminal,Ahmedabad,Gujarat,Rail Terminal,23.0341,72.5967,3387,39933,6.24,6.2
+H027,Kolkata Rail Freight Terminal,Kolkata,West Bengal,Rail Terminal,22.5143,88.3511,4363,19598,6.18,6.2
+H028,Jaipur Rail Freight Terminal,Jaipur,Rajasthan,Rail Terminal,26.8936,75.7617,2091,20378,8.73,6.0
+H029,Nagpur Rail Freight Terminal,Nagpur,Maharashtra,Rail Terminal,21.1348,79.148,5834,32981,9.08,6.3
+H030,Lucknow Rail Freight Terminal,Lucknow,Uttar Pradesh,Rail Terminal,26.8121,80.9849,3929,41236,5.53,8.1
+H031,Indore Rail Freight Terminal,Indore,Madhya Pradesh,Rail Terminal,22.6523,75.8443,5130,20893,5.33,5.8
+H032,Guwahati Rail Freight Terminal,Guwahati,Assam,Rail Terminal,26.151,91.7596,2330,24309,7.97,9.7
+H033,Ludhiana Rail Freight Terminal,Ludhiana,Punjab,Rail Terminal,30.9294,75.889,3946,38322,5.73,9.5
+H034,Patna Rail Freight Terminal,Patna,Bihar,Rail Terminal,25.5802,85.1191,3962,44154,9.12,6.9
+H035,Mumbai Airport Cargo Terminal,Mumbai,Maharashtra,Airport,19.1275,72.8662,1900,5505,20.34,4.6
+H036,Delhi Airport Cargo Terminal,Delhi,Delhi,Airport,28.6276,77.0345,1314,3007,18.01,5.7
+H037,Bengaluru Airport Cargo Terminal,Bengaluru,Karnataka,Airport,12.9164,77.6244,1157,2097,28.89,7.2
+H038,Chennai Airport Cargo Terminal,Chennai,Tamil Nadu,Airport,13.0912,80.3121,827,3607,18.32,6.3
+H039,Hyderabad Airport Cargo Terminal,Hyderabad,Telangana,Airport,17.3594,78.4962,930,2922,19.99,7.0
+H040,Ahmedabad Airport Cargo Terminal,Ahmedabad,Gujarat,Airport,23.06,72.5528,1233,6743,18.15,5.7
+H041,Kolkata Airport Cargo Terminal,Kolkata,West Bengal,Airport,22.6,88.3242,1102,2852,17.62,6.2
+H042,Pune Airport Cargo Terminal,Pune,Maharashtra,Airport,18.4986,73.8338,434,5544,16.3,4.4
+H043,Jaipur Airport Cargo Terminal,Jaipur,Rajasthan,Airport,26.8406,75.8165,1722,6859,16.78,6.7
+H044,Lucknow Airport Cargo Terminal,Lucknow,Uttar Pradesh,Airport,26.8185,80.9469,1833,6067,18.44,4.0
+H045,Coimbatore Airport Cargo Terminal,Coimbatore,Tamil Nadu,Airport,11.0456,76.9826,624,3398,16.75,6.5
+H046,Kochi Airport Cargo Terminal,Kochi,Kerala,Airport,9.9711,76.2614,1286,7628,24.28,7.3
+H047,Guwahati Airport Cargo Terminal,Guwahati,Assam,Airport,26.1191,91.7314,573,7007,25.53,3.7
+H048,Indore Airport Cargo Terminal,Indore,Madhya Pradesh,Airport,22.6184,75.7709,1475,7172,21.51,6.1
+H049,Delhi ICD,Delhi,Delhi,Inland Container Depot,28.6512,77.0626,1618,9834,6.27,3.4
+H050,Jaipur ICD,Jaipur,Rajasthan,Inland Container Depot,26.9284,75.7511,2450,9732,7.02,5.9
+H051,Nagpur ICD,Nagpur,Maharashtra,Inland Container Depot,21.1307,79.1402,2599,20985,8.5,3.3
+H052,Ludhiana ICD,Ludhiana,Punjab,Inland Container Depot,30.8867,75.8868,2691,13566,8.4,6.7
+H053,Coimbatore ICD,Coimbatore,Tamil Nadu,Inland Container Depot,10.9795,76.9476,1237,12213,5.17,3.5
+H054,JNPT / Nhava Sheva,JNPT / Nhava Sheva,Maharashtra,Port,18.949,72.9525,15160,79086,9.27,35.1
+H055,Mundra Port,Mundra,Gujarat,Port,22.8394,69.7047,8302,93029,9.66,31.6
+H056,Chennai Port,Chennai,Tamil Nadu,Port,13.093,80.293,6374,116449,9.75,27.1
+H057,Kolkata Port (Haldia),Kolkata,West Bengal,Port,22.0333,88.0833,11548,62915,12.0,31.2
+H058,Kochi Port,Kochi,Kerala,Port,9.9667,76.2333,9709,113984,10.91,31.5
+H059,Visakhapatnam Port,Visakhapatnam,Andhra Pradesh,Port,17.6868,83.3,14297,41988,8.34,34.8
+H060,Mormugao Port (Goa),Mormugao,Goa,Port,15.4027,73.802,14082,84415,10.62,19.6
