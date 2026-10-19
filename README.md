@@ -206,15 +206,6 @@ Multimodal_Logistics_Optimisation/
 
 The `data/raw` directory contains input data, `excel` contains the analytical workbook, `outputs` contains generated tables and model results, and `reports` contains documentation and validation findings.
 
-## How to Explore the Project
-
-1. Start with the Excel workbook to understand the dashboard and scenario analysis.
-2. Read the methodology report to understand the objective function, cost calculations, and constraints.
-3. Review the data-quality and optimisation-validation reports.
-4. Explore the output tables and compare them with the reference recommendations.
-5. Treat the reported savings as provisional until the outstanding validation checks are resolved.
-
-The repository currently documents the analytical workflow and outputs. A fully reproducible end-to-end run guide should be added if the optimisation-generation code is made available.
 
 ## Conclusion
 
